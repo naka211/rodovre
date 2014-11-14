@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<install version="1.5" type="plugin" method="upgrade" group="hikashop" >	
+	<name>Hikashop - AwoCoupon</name>
+	<creationDate>2013-06-06</creationDate>
+	<author>Seyi Awofadeju</author>
+	<copyright>Copyright (C) Seyi Awofadeju - All rights reserved.</copyright>
+	<authorEmail>dev@awofadeju.com</authorEmail>
+	<authorUrl>http://awodev.com</authorUrl>
+	<version>2.0.1</version>
+	<description>AwoCoupon for Hikashop</description>
+	<files>
+		<filename plugin="awocoupon">awocoupon.php</filename>
+	</files>
+</install>

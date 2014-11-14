@@ -1,0 +1,40 @@
+/**
+ * @package		JMS FileSeller
+ * @version		1.0
+ * @copyright	Copyright (C) 2009 - 2011 Joommasters. All rights reserved.
+ * @License 	http://joommasters.com/lisence.html
+ **/
+ 
+.product {
+	float:left;
+	padding:10px;
+}
+.span33 {
+	width:33%;
+}
+.product-image {
+	height:200px;
+	position:relative;
+	cursor:pointer;
+}
+.product-image img {
+	overflow:hidden;
+	position:absolute;
+}
+.product-info {
+	margin-top:10px;
+	border-top:1px dotted #878787;
+	padding:5px 0px;
+}
+.product-name {
+	width:60%;
+	float:left;	
+}
+.product-colors {
+	width:40%;
+	float:right;
+	text-align:right;
+}
+.product-colors span {
+	cursor:pointer;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_AWOCOUPON_MENU_TITLE_GIFTCERT">
+            <message><![CDATA[COM_AWOCOUPON_MENU_DESC_GIFTCERT]]></message>
+	</layout>
+	<state>
+		<name>COM_AWOCOUPON_MENU_TITLE_GIFTCERT</name>
+		<description><![CDATA[COM_AWOCOUPON_MENU_DESC_GIFTCERT]]></description>
+	</state>
+</metadata>

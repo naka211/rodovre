@@ -1,0 +1,36 @@
+.navbar-default {background: #fff; border: none; background: #fff url(../img/border_top2.jpg) repeat-x top center !important;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {background: url(../img/menu_hover1_b.png) no-repeat 50% 15%;}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {background: url(../img/menu_hover_b.png) no-repeat 50% 15%;}
+.navbar-default .navbar-nav > li:nth-child(n+1) > a:hover {background: url(../img/menu_hover1_b.png) no-repeat 50% 15%;}
+.navbar-default .navbar-nav > li:nth-child(n+2) > a:hover {background: url(../img/menu_hover2_b.png) no-repeat 50% 15%;}
+.navbar-default .navbar-nav > li:nth-child(n+4) > a:hover {background: url(../img/menu_hover2_b.png) no-repeat 50% 15%;}
+.navbar-default .navbar-nav > li:nth-child(n+6) > a:hover {background: url(../img/menu_hover2_b.png) no-repeat 50% 15%;}
+.bg_black {background: url(../img/bg_black.jpg) repeat top center;}
+.cart_content {background-color: #f1f1f1 !important;}
+.btn_black {color: #fff !important; background-image: -webkit-linear-gradient(bottom, #535353, #787878 31%, #9e9e9e 70%, #989898 94%) !important; background-image: -moz-linear-gradient(bottom, #535353, #787878 31%, #9e9e9e 70%, #989898 94%) !important; background-image: -o-linear-gradient(bottom, #535353, #787878 31%, #9e9e9e 70%, #989898 94%) !important; background-image: linear-gradient(to top, #535353, #787878 31%, #9e9e9e 70%, #989898 94%) !important;}
+.btn_black:hover {background-image: -webkit-linear-gradient(bottom, #535353, #989898) !important; background-image: -moz-linear-gradient(bottom, #535353, #989898) !important; background-image: -o-linear-gradient(bottom, #535353, #989898) !important; background-image: linear-gradient(to top, #535353, #989898)  !important;}
+.footer_top {background: #f1f1f1 !important;}
+.c505050 {color: #505050 !important; font-weight: bold;}
+.main_left h2 {color: #505050;}
+.navbar-nav > li .sub {display: none; position: absolute; top: 41px; left: -230px; width: 980px; border: solid 1px #dcd6c0; border-bottom: solid 2px #dcd6c0; border-top: none;
+padding: 20px; min-height: 280px; background-color: #f0a830; background-image: -webkit-linear-gradient(top, #535353, #787878 31%, #9e9e9e 70%, #989898 94%); background-image: -moz-linear-gradient(top, #535353, #787878 31%, #9e9e9e 70%, #989898 94%); background-image: -o-linear-gradient(top, #535353, #787878 31%, #9e9e9e 70%, #989898 94%); background-image: linear-gradient(to bottom, #535353, #787878 31%, #9e9e9e 70%, #989898 94%);}
+.cart_content {background-color: #f1f1f1 !important;}
+.btn2 {color: #fff !important; background-image: -webkit-linear-gradient(bottom, #535353, #787878 31%, #9e9e9e 70%, #989898 94%) !important; background-image: -moz-linear-gradient(bottom, #535353, #787878 31%, #9e9e9e 70%, #989898 94%) !important; background-image: -o-linear-gradient(bottom, #535353, #787878 31%, #9e9e9e 70%, #989898 94%) !important; background-image: linear-gradient(to top, #535353, #787878 31%, #9e9e9e 70%, #989898 94%) !important;}
+.btn2:hover {background-image: -webkit-linear-gradient(bottom, #535353, #989898) !important; background-image: -moz-linear-gradient(bottom, #535353, #989898) !important; background-image: -o-linear-gradient(bottom, #535353, #989898) !important; background-image: linear-gradient(to top, #535353, #989898)  !important;}
+.btnSearch {background: url(../img/search2.png) no-repeat; width: 39px; height: 32px; position: absolute; top: 0; right: -44px; text-indent: -99999px; display: block; border: none;}
+.navbar-default .navbar-collapse {background: url(../img/bg_menu2.png) repeat-x !important;}
+a.btnseemore {color: #505050; margin-left: 65px; float: left;}
+ul.cate li.active a, ul.cate li ul li.active a {color: #505050;}
+ul.cate li a.active {font-weight: bold;}
+ul.cate li:hover ul li.active a {color: #505050;}
+ul.cate li ul li.active a {font-weight: bold !important;}
+ul.cate li:hover a {color: #505050;}
+ul.cate li.active a {font-weight: bold;}
+ul.cate li.active ul li a {font-weight: normal;}
+ul.cate li:hover ul li:hover a {color: #505050;}
+.template h2 {color: #505050; font-weight: bold;}
+.product_page h4 {color: #505050;}
+.btn_Findos {background: url(../img/title_find_os2.png) no-repeat; width: 187px; height: 28px; text-indent: -9999px; display: block;}
+a.btnAddcart {color: #fff !important; background-image: -webkit-linear-gradient(bottom, #815822, #b38843 24%, #d8b965 84%, #d6b45b 94%); background-image: -moz-linear-gradient(bottom, #815822, #b38843 24%, #d8b965 84%, #d6b45b 94%); background-image: -o-linear-gradient(bottom, #815822, #b38843 24%, #d8b965 84%, #d6b45b 94%); background-image: linear-gradient(to top, #815822, #b38843 24%, #d8b965 84%, #d6b45b 94%); width: 434px; height: 44px; display: block; text-indent: -9999px;}
+a.btn_sizeguide {text-transform: uppercase; color: #fff; padding: 5px 20px; margin: 10px 0; background-image: -webkit-linear-gradient(bottom, #535353, #787878 31%, #9e9e9e 70%, #989898 94%) !important; background-image: -moz-linear-gradient(bottom, #535353, #787878 31%, #9e9e9e 70%, #989898 94%) !important; background-image: -o-linear-gradient(bottom, #535353, #787878 31%, #9e9e9e 70%, #989898 94%) !important; background-image: linear-gradient(to top, #535353, #787878 31%, #9e9e9e 70%, #989898 94%) !important;}
+a.btn_sizeguide:hover {color: #fff; background-image: -webkit-linear-gradient(bottom, #535353, #989898) !important; background-image: -moz-linear-gradient(bottom, #535353, #989898) !important; background-image: -o-linear-gradient(bottom, #535353, #989898) !important; background-image: linear-gradient(to top, #535353, #989898)  !important;}

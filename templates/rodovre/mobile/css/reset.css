@@ -1,0 +1,134 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, button,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	background: transparent;
+	color:#505050;
+}
+body {
+	line-height: 1.2em;
+	margin: 0 auto;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 0.65em;  
+	background: #FFF;
+	-webkit-text-size-adjust: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+	line-height: 1.3em;
+	color: #000;
+	font-weight: bold;
+	font-size: 1.3em;  } 
+ 
+a:hover { text-decoration: underline;}
+pre
+{
+	font-size: 12px;
+	width: 100%;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {	content: '';}
+p {	margin: 0.4em 0 0.2em 0;line-height: 1.4em; }
+ul, ol {	list-style: none;}
+
+/* remember to highlight inserts somehow! */
+ins, a {	text-decoration: none;	}
+del {	text-decoration: line-through;}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border:0; 
+	border-collapse: collapse;
+	border-spacing:0; 
+	empty-cells:show; 
+	font-size:100%; 
+}
+table { margin-bottom: 5px; width: 100%; }
+th { font-weight: bold; }
+thead th { background: #f2e7d4; }
+tfoot { font-style: italic; }
+caption { background: #eee; }
+/* Clearfix
+-------------------------------------------------------------*/
+* html .clearfix {	height: 1%; /* IE5-6 */}
+*, *:before, *:after {
+ -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+html[xmlns] .clearfix { /* O */
+	display: block;  }
+
+.clearfix:after { /* FF, O, etc. */
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+*:first-child+html .clearfix { /* IE 7 */
+	display: inline-block;}
+
+/* Mis.
+-------------------------------------------------------------*/
+.clear, .divider {clear: both;}
+
+.no-display {display: none !important;}
+
+.display {display: block !important;}
+
+.nowrap,.nobr {white-space: nowrap !important;}
+
+.no-border {	border: 0 !important; }
+.no-border-radius {	border-radius: 0 !important;}
+
+.no-padding {padding: 0 !important}
+.no-margin 	{margin: 0 !important;}
+
+.pipe {	padding: 0 4px;	text-align: center;	color: #999999;}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {    color: #5a5a5a;font-family:  "Century Gothic", CenturyGothic, arial;} /*--- Chrome---*/
+input:-moz-placeholder, textarea:-moz-placeholder {   color: #5a5a5a; font-family:  "Century Gothic", CenturyGothic, arial;}
+input:-ms-input-placeholder, textarea:-ms-placeholder {   color: #5a5a5a;font-family:  "Century Gothic", CenturyGothic, arial;}
+/*--- Alignment---*/
+.v-top 		{vertical-align: top !important;}
+.v-middle	{vertical-align: middle !important;}
+.v-bottom 	{vertical-align: bottom !important;}
+
+.a-left		{text-align: left !important;}
+.a-center	{text-align: center !important;}
+.a-right		{text-align: right !important;}
+.left		{float: left !important;}
+.right	{float: right !important;}
+.normal-weight {font-weight: normal;}
+.auto-width {width: auto;}
+
+/*** Setting EX CSS ***/ 
+.relative { position: relative;}
+.m-l-0 { margin-left: 0 !important;}
+.b-ra-5 {	-webkit-border-radius: 5px;	-moz-border-radius: 5px;	border-radius: 5px;}
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+/**
+ * @package		JMS Virtuemart Customize
+ * @version		1.0
+ * @copyright	Copyright (C) 2009 - 2013 Joommasters. All rights reserved.
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ * @Website: http://www.joommasters.com
+ **/
+-----------------------------------------------------------------------------
+Change Log File
+----------------------------------------------------------------------------- 
+1. 2013-12-16 : add language select box on products list

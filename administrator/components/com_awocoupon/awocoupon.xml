@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+	<name>AwoCoupon</name>
+	<creationDate>2013-10-30</creationDate>
+	<author>Seyi Awofadeju</author>
+	<copyright>Copyright (C) Seyi Awofadeju - All rights reserved.</copyright>
+	<authorEmail>dev@awofadeju.com</authorEmail>
+	<authorUrl>http://awodev.com</authorUrl>
+	<version>2.2.3 pro</version>
+	<description>Awocoupon Pro - A coupon enhancement for your online shop</description>
+
+	<installfile>install.awocoupon.php</installfile>
+	<uninstallfile>install.awocoupon.php</uninstallfile>
+	<!--<install>
+		<sql>
+			<file driver="mysqli" charset="utf8">helpers/install/mysql.install.sql</file>
+			<file driver="mysql" charset="utf8">helpers/install/mysql.install.sql</file>
+		</sql>
+	</install>-->
+	<uninstall>
+		<sql>
+			<file driver="mysqli" charset="utf8">helpers/install/mysql.uninstall.sql</file>
+			<file driver="mysql" charset="utf8">helpers/install/mysql.uninstall.sql</file>
+		</sql>
+	</uninstall>
+
+	<administration>
+		<menu img="../administrator/components/com_awocoupon/assets/images/awocoupon-small.png">COM_AWOCOUPON</menu>
+		<files folder="admin">
+			<folder>assets/</folder>
+			<folder>helpers/</folder>
+			<folder>liveupdate/</folder>
+			<folder>models/</folder>
+			<folder>tables/</folder>
+			<folder>views/</folder>
+			<filename>awocoupon.php</filename>
+			<filename>awocoupon.config.php</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<filename>_toolbar.awocoupon.php</filename>
+		</files>
+		<languages folder="language/admin">
+			<language tag="bg-BG">bg-BG.com_awocoupon.ini</language>
+			<language tag="ca-ES">ca-ES.com_awocoupon.ini</language>
+			<language tag="cs-CZ">cs-CZ.com_awocoupon.ini</language>
+			<language tag="de-DE">de-DE.com_awocoupon.ini</language>
+			<language tag="en-GB">en-GB.com_awocoupon.ini</language>
+			<language tag="en-GB">en-GB.com_awocoupon.menu.ini</language>
+			<language tag="en-GB">en-GB.com_awocoupon.sys.ini</language>
+			<language tag="es-ES">es-ES.com_awocoupon.ini</language>
+			<language tag="fr-FR">fr-FR.com_awocoupon.ini</language>
+			<language tag="it-IT">it-IT.com_awocoupon.ini</language>
+			<language tag="nl-NL">nl-NL.com_awocoupon.ini</language>
+			<language tag="pl-PL">pl-PL.com_awocoupon.ini</language>
+			<language tag="ru-RU">ru-RU.com_awocoupon.ini</language>
+			<language tag="sk-SK">sk-SK.com_awocoupon.ini</language>
+		</languages>
+	</administration>
+	
+	<media folder="media" destination="com_awocoupon">
+		<folder>css/</folder>
+		<folder>customers/</folder>
+		<folder>images/</folder>
+		<folder>js/</folder>
+		<filename>index.html</filename>
+	</media>
+
+	<files folder="site">
+		<folder>assets/</folder>
+		<folder>models/</folder>
+		<folder>views/</folder>
+		<filename>awocoupon.php</filename>
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<filename>router.php</filename>
+	</files>
+	
+	<languages folder="language/site">
+		<language tag="bg-BG">bg-BG.com_awocoupon.ini</language>
+		<language tag="ca-ES">ca-ES.com_awocoupon.ini</language>
+		<language tag="cs-CZ">cs-CZ.com_awocoupon.ini</language>
+		<language tag="de-DE">de-DE.com_awocoupon.ini</language>
+		<language tag="en-GB">en-GB.com_awocoupon.ini</language>
+		<language tag="es-ES">es-ES.com_awocoupon.ini</language>
+		<language tag="fr-FR">fr-FR.com_awocoupon.ini</language>
+		<language tag="it-IT">it-IT.com_awocoupon.ini</language>
+		<language tag="nl-NL">nl-NL.com_awocoupon.ini</language>
+		<language tag="pl-PL">pl-PL.com_awocoupon.ini</language>
+		<language tag="ru-RU">ru-RU.com_awocoupon.ini</language>
+		<language tag="sk-SK">sk-SK.com_awocoupon.ini</language>
+	</languages>
+
+</install>

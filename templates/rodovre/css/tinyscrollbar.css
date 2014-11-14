@@ -1,0 +1,15 @@
+#scrollbar1 {margin: 0; width: 981px;}
+#scrollbar1 .viewport { width: 961px; height: 278px; overflow: hidden; position: relative; }
+#scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; }
+#scrollbar1 .scrollbar{ background: transparent url(scrollbar/scrollbar_bg.png) repeat-y 0 0; position: relative; background-position: 0 0; float: right; width: 7px; right: 7px;}
+#scrollbar1 .track {height: 100%; width:7px; position: relative; padding: 0 1px; }
+#scrollbar1 .thumb { background: transparent url(scrollbar/scrollbar.png) no-repeat 0% 50%; height: 20px; width: 14px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 0;}
+#scrollbar1 .disable { display: none; }
+
+#scrollbar2 {margin: 0; width: 435px;}
+#scrollbar2 .viewport { width: 415px; height: 150px; overflow: hidden; position: relative; }
+#scrollbar2 .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; }
+#scrollbar2 .scrollbar{ background: transparent url(scrollbar/scrollbar_bg.png) repeat-y 0 0; position: relative; background-position: 0 0; float: right; width: 7px; right: 7px;}
+#scrollbar2 .track {height: 100%; width:7px; position: relative; padding: 0 1px; }
+#scrollbar2 .thumb { background: transparent url(scrollbar/scrollbar_black.png) no-repeat 0% 50%; height: 20px; width: 14px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 0;}
+#scrollbar2 .disable { display: none; }
