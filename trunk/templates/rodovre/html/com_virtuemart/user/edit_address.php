@@ -328,9 +328,9 @@ jQuery(document).ready(function(){
                     <input class="input required validate-email" type="text" placeholder="E-mail adresse *" name="email" id="email">
                     <textarea class="textarea" placeholder="Evt. din besked" name="message1"></textarea>
                     <?php if(!$isGiftCard){?>
-                    <a class="btnLevering hover showDelivery" href="javascript:void(0);">Levering til anden adresse</a>
+                    <a class="btnLevering hover showDelivery cblack" href="javascript:void(0);">Levering til anden adresse</a>
                     <?php } else {?>
-                    <a class="btnLevering1 hover showDelivery" href="javascript:void(0);">Modtageren af gavekortet</a>
+                    <a class="btnLevering1 hover showDelivery cblack" href="javascript:void(0);">Modtageren af gavekortet</a>
                     <?php }?>
                     <div class="w_Address clearfix">
                         
@@ -349,7 +349,7 @@ jQuery(document).ready(function(){
                 </li>
                 <li>
                     <input id="ship2" name="virtuemart_shipmentmethod_id" value="1" type="radio" onChange="changeDelivery(this.value)">
-                    Ved afhentning på Hesselrødvej 26, 2980 Kokkedal, sparer du 10%, som vil blive fratrukket automatisk
+                    Ved afhentning på 2610 Rødovre, sparer du 10%, som vil blive fratrukket automatisk
                 </li>
                 <?php } else {?>
                 <li>
