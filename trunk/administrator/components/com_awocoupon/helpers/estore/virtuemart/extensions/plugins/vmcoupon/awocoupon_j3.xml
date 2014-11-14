@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="2.5" method="upgrade" group="vmcoupon">
+	<name>VMCoupon - AwoCoupon</name>
+	<creationDate>2011-11-22</creationDate>
+	<author>Seyi Awofadeju</author>
+	<copyright>Copyright (C) Seyi Awofadeju - All rights reserved.</copyright>
+	<authorEmail>dev@awofadeju.com</authorEmail>
+	<authorUrl>http://awodev.com</authorUrl>
+	<version>2.0.0</version>
+	<description>AwoCoupon for Virtuemart</description>
+	<files>
+		<filename plugin="awocoupon">awocoupon.php</filename>
+	</files>
+	<scriptfile>script.php</scriptfile>
+</extension>

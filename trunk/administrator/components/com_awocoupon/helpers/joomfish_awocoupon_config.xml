@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" ?>
+<joomfish type="contentelement">
+	<name>AwoCoupon</name>
+	<author>Seyi Awofadeju</author>
+	<version>1.0.0</version>
+	<description>Definition for the AwoCoupon Error Messages</description>
+	<copyright>Copyright (C) Seyi Awofadeju - All rights reserved.</copyright>
+	<reference>
+		<table name="awocoupon_config">
+			<field type="referenceid" name="id" translate="0">ID</field>
+			<field type="titletext" name="value" translate="1" >Text</field>
+			<filter>c.name IN (	"errCategoryExclList",
+								"errCategoryInclList",
+								"errDiscountedExclude",
+								"errGiftcertExclude",
+								"errGiftUsed",
+								"errManufacturerExclList",
+								"errManufacturerInclList",
+								"errMinVal",
+								"errNoRecord",
+								"errProductExclList",
+								"errProductInclList",
+								"errProgressiveThreshold",
+								"errShippingExclList",
+								"errShippingInclList",
+								"errShippingSelect",
+								"errShippingValid",
+								"errTotalMaxUse",
+								"errUserGroupNotOnList",
+								"errUserLogin",
+								"errUserMaxUse",
+								"errUserNotOnList",
+								"errVendorExclList",
+								"errVendorInclList"
+							) </filter>
+		</table>
+	</reference>
+	<translationfilters>
+		<published>published</published>
+	</translationfilters>
+</joomfish>
+
+

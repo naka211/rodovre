@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<install version="1.5" type="plugin" method="upgrade" group="vmshipment" >
+	<name>VmShipment - Awocoupon Free Gift Certificates</name>
+	<creationDate>2013-06-06</creationDate>
+	<author>Seyi Awofadeju</author>
+	<copyright>Copyright (C) Seyi Awofadeju - All rights reserved.</copyright>
+	<authorEmail>dev@awofadeju.com</authorEmail>
+	<authorUrl>http://awodev.com</authorUrl>
+	<version>2.0.0</version>
+	<description>Gift certificates ship free</description>
+	<files>
+		<filename plugin="awocoupon">awocoupon.php</filename>
+	</files>
+	<params addpath="/administrator/components/com_virtuemart/elements">
+	<param type="vmjpluginwarning" />
+	<param	name="shipment_logos" type="vmfiles" label="VMSHIPMENT_AWOCOUPON_LOGOS"
+             	description=""
+             	directory="/images/stories/virtuemart/shipment"
+             	default="default" hide_default="1" hide_none="1"
+             	stripext="0"   exclude="^_" />
+    </params>
+
+</install>

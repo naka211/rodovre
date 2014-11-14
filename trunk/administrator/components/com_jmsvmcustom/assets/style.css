@@ -1,0 +1,55 @@
+/**
+ * @package		JMS Virtuemart Customize
+ * @version		1.0
+ * @copyright	Copyright (C) 2009 - 2013 Joommasters. All rights reserved.
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ * @Website: http://www.joommasters.com
+ **/
+ 
+.colorbox {
+	border-bottom:1px solid #CCC;
+	width:100%;
+	display:inline-block;
+}
+.add-img {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;    
+    text-decoration: none;    
+    margin: 5px 5px 5px 0;
+    width: auto;
+    font-size:11px;
+    padding:2px 15px;
+    cursor:pointer;
+}
+.delete-img {
+	float:left;
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background:url(delete.png) no-repeat top left;
+	cursor:pointer;
+}
+fieldset input, fieldset textarea, fieldset select, fieldset img, fieldset button,
+fieldset.adminform label, fieldset.adminform span.faux-label {
+	float:none!important;
+	display:inline-block;
+}
+#color_icon {
+	display:inline-block;
+}
+#color-icon-preview {
+	display:inline-block;
+}
+.imgs-list {
+	 display:inline-block;
+	 float:left;
+}
+.img-preview {
+	display:inline-block;
+}
+.img-preview img {
+	max-width:200px;
+}
+td.key {
+	vertical-align:top;
+}

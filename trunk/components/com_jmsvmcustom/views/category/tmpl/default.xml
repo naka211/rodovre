@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="SINGLE_CATEGORY">
+		<message>
+			<![CDATA[SINGLE_CATEGORY]]>
+		</message>
+	</layout>
+	<fields name="request">
+		<fieldset name="request">
+			<field
+				name="virtuemart_category_id"
+				type="text"
+				label="CATEGORY_ID"
+				description="CATEGORY_ID"
+				default=""			>
+			</field>
+		</fieldset>
+	</fields>
+</metadata>

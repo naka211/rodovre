@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="2.5">
+<name>Danish Language Pack</name>
+<packagename>da-DK</packagename>
+<version>2.5.24.1</version>
+<creationDate>2008-03-15</creationDate>
+<author>Danish Joomla! Translation Team</author>
+<authorEmail>dansk@danskjoomla.dk</authorEmail>
+<authorUrl>www.danskjoomla.dk</authorUrl>
+<copyright>Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.</copyright>
+<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+<description>da-DK Dansk Joomla! 2.5.x sprogpakke til site og admin</description>
+<url>http://danskjoomla.dk</url>
+<files>
+        <file type="language" client="site" id="da-DK">site_da-DK.zip</file>
+        <file type="language" client="administrator" id="da-DK">admin_da-DK.zip</file>
+</files>
+<updateservers>
+<server type="collection" priority="1" name="Accredited Joomla! Translations">http://update.joomla.org/language/translationlist.xml</server>
+ </updateservers>
+</extension>

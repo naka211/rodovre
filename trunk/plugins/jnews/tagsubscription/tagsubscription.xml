@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/2.5/plugin-install.dtd">
+<extension version="2.5" type="plugin" group="jnews" method="upgrade">
+	<name>jNews Tag: Subscriptions</name>
+	<author>Joobi Limited</author>
+	<creationDate>January 2013</creationDate>
+	<copyright>Copyright (C) 2013 Joobi Limited All rights reserved</copyright>
+	<license>GNU GPLv3</license>
+	<authorEmail>support@joobi.co</authorEmail>
+	<authorUrl>http://www.joobi.co</authorUrl>
+	<version>2.1</version>
+	<description>This plugin enables you to add links to manage the subscription of the subscribers.</description>
+	<files>
+		<filename plugin="tagsubscription">tagsubscription.php</filename>
+	</files>
+</extension>

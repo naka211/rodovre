@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5.0" method="upgrade">
+	<name>com_jmsvmcustom</name>
+	<author>www.joommasters.com</author>
+	<creationDate>Sep 2013</creationDate>
+	<copyright>All rights reserved.</copyright>
+	<license>license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>info@joommasters.com</authorEmail>
+	<authorUrl>www.joommasters.com</authorUrl>
+	<version>1.0</version>
+	<description>JMS customize color component for Virtuemart</description>
+	
+	<install>
+		<sql folder="admin/sql">
+			<file driver="mysql" charset="utf8">sql/install.jmsvmcustom.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql folder="admin/sql">
+			<file driver="mysql" charset="utf8">sql/uninstall.jmsvmcustom.sql</file>
+		</sql>
+	</uninstall>
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>jmsvmcustom.php</filename>		
+		<folder>assets</folder>
+		<folder>controllers</folder>		
+		<folder>helpers</folder>		
+		<folder>views</folder>
+	</files>  
+  <administration>
+	<menu>JMS VM Customize</menu>
+    <submenu>
+	  <menu link="option=com_jmsvmcustom&amp;controller=colors" view="colors" alt="JMS VM Customize/Colors">Colors</menu>	
+	  <menu link="option=com_jmsvmcustom&amp;controller=products" view="products" alt="JMS Customize/Products">Products</menu>		  
+    </submenu>    
+  	<files folder="admin">
+		<filename>index.html</filename>
+  		<filename>admin.jmsvmcustom.php</filename>
+		<filename>changelog.txt</filename>
+  		<folder>assets</folder>
+		<folder>controllers</folder>
+		<folder>helpers</folder>
+		<folder>models</folder>		
+		<folder>tables</folder>
+		<folder>views</folder>
+		<folder>sql</folder>
+  	</files>
+  	<languages folder="admin/language">
+      <filename tag="en-GB">en-GB.com_jmsvmcustom.ini</filename>
+      <filename tag="en-GB">en-GB.com_jmsvmcustom.sys.ini</filename>
+    </languages>
+	</administration>
+	
+</extension>

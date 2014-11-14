@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<install version="1.5" type="plugin" group="vmpayment" >
+    <name>VMPAYMENT_QUICKPAY</name>
+    <creationDate>Jan 2012</creationDate>
+    <author>Quickpay</author>
+    <authorUrl>http://www.quickpay.dk</authorUrl>
+    <copyright>Copyright (C)2012 Quickpay</copyright>
+    <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+    <version>1.2</version>
+    <description><![CDATA[<a href="http://quickpay.dk" target="_blank">Quickpay</a> payment gateway.]]>
+    </description>
+
+    <files>
+	<filename plugin="quickpay">quickpay.php</filename>
+    </files>
+    <languages>
+	<language tag="en-GB">en-GB.plg_vmpayment_quickpay.ini</language>
+	<language tag="da-DK">da-DK.plg_vmpayment_quickpay.ini</language>
+    </languages>
+    
+    <params addpath="/administrator/components/com_virtuemart/elements">
+	<param type="vmjpluginwarning" />
+	<param   type="spacer" default="VMPAYMENT_QUICKPAY_PARAMS" level="level1" />
+	<param type="text" name="quickpay_merchant"  size="50" label="VMPAYMENT_QUICKPAY_MERCHANT"
+             default="" description="VMPAYMENT_QUICKPAY_MERCHANT_DESC" />
+
+	<param type="text" name="quickpay_md5_key"  size="50" label="VMPAYMENT_QUICKPAY_MD5"
+             default="" description="VMPAYMENT_QUICKPAY_MD5_DESC" />
+
+	<param type="text" name="quickpay_cardtypelock"  size="50" label="VMPAYMENT_QUICKPAY_CARDTYPELOCK"
+             default="" description="VMPAYMENT_QUICKPAY_CARDTYPELOCK_DESC" />
+
+	<param name="quickpay_autocapture" type="radio" default="0" label="VMPAYMENT_QUICKPAY_AUTOCAPTURE" description="VMPAYMENT_QUICKPAY_AUTOCAPTURE_DESC">
+	    <option value="0">COM_VIRTUEMART_NO</option>
+	    <option value="1">COM_VIRTUEMART_YES</option>
+	</param>
+
+	<param name="quickpay_splitpayment" type="radio" default="0" label="VMPAYMENT_QUICKPAY_SPLITPAYMENT" description="VMPAYMENT_QUICKPAY_SPLITPAYMENT_DESC">
+	    <option value="0">COM_VIRTUEMART_NO</option>
+	    <option value="1">COM_VIRTUEMART_YES</option>
+	</param>
+
+	<param name="quickpay_autofee" type="radio" default="0" label="VMPAYMENT_QUICKPAY_AUTOFEE" description="VMPAYMENT_QUICKPAY_AUTOFEE_DESC">
+	    <option value="0">COM_VIRTUEMART_NO</option>
+	    <option value="1">COM_VIRTUEMART_YES</option>
+	</param>
+
+	<param name="status_pending" type="vmorderstate" scope="com_virtuemart" default="P" label="VMPAYMENT_QUICKPAY_STATUS_PENDING" description="VMPAYMENT_QUICKPAY_STATUS_PENDING_DESC" />
+	<param name="status_success" type="vmorderstate" scope="com_virtuemart" default="C" label="VMPAYMENT_QUICKPAY_STATUS_SUCCESS" description="VMPAYMENT_QUICKPAY_STATUS_SUCCESS_DESC" />
+	<param name="status_canceled" type="vmorderstate" scope="com_virtuemart" default="X" label="VMPAYMENT_QUICKPAY_STATUS_FAILED" description="VMPAYMENT_QUICKPAY_STATUS_FAILED_DESC" />
+
+
+    </params>
+
+</install>

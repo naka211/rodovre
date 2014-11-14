@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<install method="upgrade" version="1.5" type="plugin" group="vmcustom" >
+    <name>VMCustom - JmsColor</name>
+    <creationDate>September 03 2013</creationDate>
+    <author>Joommasters</author>
+    <authorUrl>http://www.joommasters.com</authorUrl>
+    <copyright>Copyright (C) 2009-2013 Joommasters. All rights reserved.</copyright>
+    <license>license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <version>1.0</version>
+    <description>customize color plugin for Virtuemart product</description>    
+    <files>
+        <filename plugin="jmscolor">jmscolor.php</filename>
+		<filename plugin="jmscolor">changelog.txt</filename>
+        <folder>assets</folder>
+    </files>
+    <params addpath="/administrator/components/com_virtuemart/elements">
+       <param type="vmjpluginwarning" />			
+	    <param name="color_title" type="text"  size="30"  default="" label="Color Title" description="Color Title" />
+	    <param name="color_icon" type="text"  size="30"  default="" label="Color Icon" description="Color Icon" />
+	    <param name="color_images" type="text"  size="30"  default="" label="Color Images" description="Color Images" />
+		<param type="radio" name="display_type" label="Display Type"
+             default="1" description="Display Type">
+            <option value="0">Only Show Color Icon</option>
+	    <option value="1">Show full(addon price and radio box)</option>
+        </param>	
+    </params>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">				
+
+				<field name="display_type" type="radio"
+					default="1"
+					description="Display Type"
+					label="Display Type"
+				>
+					<option value="0">Only Show Color Icon</option>
+					<option value="1">Show full(addon price and radio box)</option>
+				</field>
+
+				
+			</fieldset>
+		</fields>
+	</config>
+</install>
