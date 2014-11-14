@@ -433,6 +433,7 @@ class VirtuemartViewProduct extends VmView {
 		foreach($discounts as $discount){
 			$discountrates[] = JHTML::_('select.option', $discount->virtuemart_calc_id, $discount->calc_name, 'product_discount_id');
 		}
+		$selected = $selected?$selected:-1;
 		$listHTML = JHTML::_('Select.genericlist', $discountrates, $name, '', 'product_discount_id', 'text', $selected );
 		return $listHTML;
 
