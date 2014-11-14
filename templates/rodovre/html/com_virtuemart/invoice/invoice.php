@@ -349,7 +349,7 @@ if($this->orderDetails['details']['BT']->coupon_code){
 	</table>
 	</td>
 	</tr>
-
+<!--
 	<tr><td></td></tr>
 
 	<tr style="margin-top: 20px;">
@@ -357,5 +357,5 @@ if($this->orderDetails['details']['BT']->coupon_code){
 		Krukker & Havemøbler ApS - Hesselrødvej 26 - 2980 Kokkedal<br />
 		Mobil: 41628001 - info@scheel-larsen.dk - CVR 30711912<br />
 	</td>
-	</tr>
+	</tr>-->
 </table>

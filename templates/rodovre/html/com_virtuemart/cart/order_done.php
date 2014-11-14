@@ -324,11 +324,10 @@ $cart->emptyCart();
     <p><strong>Har du brug for hjælp?</strong><br>
       Se vores Almindelige Spørgsmål. Her finder du svar på spørgsmål om vores onlineshop.</p>
     <p>Tak for din bestilling.<br>
-      Krukker & Havemøbler ApS<br>
-      Hesselrødvej 26, Karlebo<br>
-      2980 Kokkedal<br>
-      Mobil: 41628001<br>
-      Email: info@scheel-larsen.dk</p>
+      Rødovre Centrum 132<br>
+      2610 Rødovre<br>
+      Mobil: 36 41 11 24<br>
+      Email: ri@roedovreisenkram.dk</p>
     <div class="goto clearfix"> <a href="index.php" class="btnHome fl hover">Til forside</a> <a href="index.php?option=com_virtuemart&view=invoice&layout=invoice&tmpl=component&virtuemart_order_id=<?php echo $order['details']['BT']->virtuemart_order_id;?>&order_number=<?php echo $order['details']['BT']->order_number;?>&order_pass=<?php echo $order['details']['BT']->order_pass;?>" class="btnPrint fl hover ml10" target="_blank">PRINT KVITTERING</a> </div>
   </div>
 </div>
