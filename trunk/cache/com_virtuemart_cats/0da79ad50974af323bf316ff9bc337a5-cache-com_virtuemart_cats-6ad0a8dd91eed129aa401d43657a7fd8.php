@@ -1,1 +1,0 @@
-<?php die("Access Denied"); ?>#x#a:2:{s:6:"output";s:0:"";s:6:"result";s:240:"<option selected=\"selected\"  value="69">HAVEN</option><option  disabled="disabled" value="70"> - Altankasser</option><option   value="66">GLAS OG PORCELÆN</option><option   value="68"> - Glas</option><option   value="67"> - Stel</option>";}
