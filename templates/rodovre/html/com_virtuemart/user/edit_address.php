@@ -33,7 +33,7 @@ $cart->prepareCartViewData();
 foreach($cart->products as $product){
     $category_arr[] = $product->virtuemart_category_id;
 }
-if($category_arr[0] == 14){
+if($category_arr[0] == 71){
     $isGiftCard = true;
 } else {
     $isGiftCard = false;
@@ -349,7 +349,7 @@ jQuery(document).ready(function(){
                 </li>
                 <li>
                     <input id="ship2" name="virtuemart_shipmentmethod_id" value="1" type="radio" onChange="changeDelivery(this.value)">
-                    Ved afhentning på 2610 Rødovre, sparer du 10%, som vil blive fratrukket automatisk
+                    Ved afhentning i Rødovre Centrum, spar du 10%, som vil blive fratrukket automatisk
                 </li>
                 <?php } else {?>
                 <li>
@@ -363,9 +363,9 @@ jQuery(document).ready(function(){
                 <p> <span>
                     <input name="virtuemart_paymentmethod_id" value="1" type="radio" id="pay1" checked>
                     </span> <img src="templates/rodovre/img/cart2.png" alt=""> </p>
-                <p> <span>
+                <!--<p> <span>
                     <input class="mt5" name="virtuemart_paymentmethod_id" value="2" type="radio" id="pay2">
-                    </span> <a href="#" data-reveal-id="ppCartcredit"><img src="templates/rodovre/img/icon_via.png" alt=""></a> </p>
+                    </span> <a href="#" data-reveal-id="ppCartcredit"><img src="templates/rodovre/img/icon_via.png" alt=""></a> </p>-->
             </div>
             <div class="order_Summary clearfix">
                 <h2><span>4</span>Ordreoversigt</h2>

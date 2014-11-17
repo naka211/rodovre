@@ -14,7 +14,7 @@ if(!$this->orderDetails['details']['ST']){
     $this->orderDetails['details']['ST'] = $this->orderDetails['details']['BT'];
 }
 
-if($this->orderDetails["items"][0]->virtuemart_category_id == 14){
+if($this->orderDetails["items"][0]->virtuemart_category_id == 71){
     $isGiftCard = true;
 } else {
     $isGiftCard = false;

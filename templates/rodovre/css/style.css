@@ -17,7 +17,7 @@ h3 {font-size: 16px; color: #000;}
 -------------------------------------------------------------- */
 p { margin: 0 0 0.7em; line-height: 1.5em; }
 
-a,a:visited{color:#505050;text-decoration:none;cursor:pointer;outline:none}a:focus,a:hover{outline:none;color:#505050;text-decoration:none}blockquote{margin:1.5em;color:#fff;font-style:italic}strong,dfn{font-weight:700}em,dfn{font-style:italic}sup,sub{line-height:0}abbr,acronym{border-bottom:1px dotted #666}address{margin:0 0 1.5em;font-style:italic}del{color:#666}pre{margin:1.5em 0;white-space:pre}pre,code,tt{font:1em "andale mono","lucida console",monospace;line-height:1.5}strong.hilite_txt{color:#05A1E4}
+a{color:#505050;text-decoration:none;cursor:pointer;outline:none}a:focus,a:hover{outline:none;color:#505050;text-decoration:none}blockquote{margin:1.5em;color:#fff;font-style:italic}strong,dfn{font-weight:700}em,dfn{font-style:italic}sup,sub{line-height:0}abbr,acronym{border-bottom:1px dotted #666}address{margin:0 0 1.5em;font-style:italic}del{color:#666}pre{margin:1.5em 0;white-space:pre}pre,code,tt{font:1em "andale mono","lucida console",monospace;line-height:1.5}strong.hilite_txt{color:#05A1E4}
 
 /* Lists
 -------------------------------------------------------------- */
@@ -92,14 +92,14 @@ ul{margin:0;padding:0;list-style:none}
 .navbar-nav > li > a {text-transform: uppercase; font-family: 'gothic'; font-size: 15px; text-shadow: 0 1px 1px rgba(0,0,0,.4); padding: 8px 25px 8px;}
 /*.navbar-nav > li:last-child > a {padding-right: 0; background: none;}*/
 .navbar-default .navbar-nav > li > a {color: #fff;}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {background: #808080; color: #1b140e;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {background: #808080; color: #fff;}
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {background: #808080; color: #fff;}
 /*.navbar-default .navbar-nav > li:nth-child(n+1) > a:hover {background: url(../img/menu_hover1.png) no-repeat 50% 15%; color: #fff;}
 .navbar-default .navbar-nav > li:nth-child(n+2) > a:hover {background: url(../img/menu_hover2.png) no-repeat 50% 15%; color: #fff;}
 .navbar-default .navbar-nav > li:nth-child(n+4) > a:hover {background: url(../img/menu_hover2.png) no-repeat 50% 15%; color: #fff;}
 .navbar-default .navbar-nav > li:nth-child(n+6) > a:hover {background: url(../img/menu_hover2.png) no-repeat 50% 15%; color: #fff;}*/
 
-.navbar-nav > li {position: relative;}
+.navbar-nav > li {position: relative; margin-right:1px;}
 .navbar-nav > li:hover .sub {display: none;}
 .navbar-nav > li .sub {display: none; position: absolute; top: 36px; left: -94px; width: 980px; border: solid 1px #dcd6c0; border-bottom: solid 2px #dcd6c0; border-top: none;
 padding: 20px; min-height: 280px; background-color: #1b140e; }
@@ -320,7 +320,7 @@ ul.levering li ul li {margin-right: 5px;}
 .order_Summary table.main_order_Summary tr.title th {padding: 7px;}
 .order_Summary table.main_order_Summary tr td {padding: 12px; border-bottom: solid 1px #dcd6c0;}
 .order_Summary table.main_order_Summary tr td .img_pro {float: left; width: 90px; height: 66px; margin-right: 12px; margin-top: 10px;}
-.order_Summary table.main_order_Summary tr td .content_pro {float: left; width: 240px;}
+.order_Summary table.main_order_Summary tr td .content_pro {float: left; width: 320px;}
 .order_Summary table.main_order_Summary tr td .content_pro p {margin: 0;}
 .order_Summary table.main_order_Summary tr td .content_pro h4 {margin: 0; font-size: 13px; font-family: 'Myriad Pro Regular'; color: #000;}
 .order_Summary table.sub_order_Summary tr td {padding: 5px 12px; text-align: right; text-transform: uppercase; color: #000; border: none; background: #f9f7f3;}
@@ -490,7 +490,7 @@ a.btn_sizeguide:hover {color: #fff; background-color: #4763b2; background-image:
 .underline {text-decoration: underline;}
 
 .cblack {background: #1b140e;}
-a.cblack:hover {background: #808080;}
+a.cblack:hover {background: #808080; color:#FFF;}
 
 .count p { margin-top: 0;}
 .entryInfo > div { padding-bottom: 4px;}

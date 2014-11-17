@@ -132,7 +132,7 @@ $document->addStyleDeclaration ('#facebox .content {display: block !important; h
 		<input type='hidden' name='view' value='cart'/>
 	</form>
         <?php if(count($this->cart->products)> 0){ ?>
-        <?php $continue_link = JRoute::_('index.php?option=com_virtuemart&view=category' . $categoryLink); ?>
+        <?php $continue_link = $_SERVER['HTTP_REFERER']; ?>
         <?php echo $this->loadTemplate ('coupon');?>
         <a class="btnShopvidere fl hover cblack" href="<?php echo $continue_link ?>">Shop videre</a>
         <a class="btnCheckout fr hover cblack" href="<?php echo JURI::base().'user/editaddresscheckoutBT.html';?>">Gå til kassen</a>

@@ -198,9 +198,9 @@ else{
                                 <div class="total clearfix">
                                     <div class="info_ fl">
                                         <ul>
-                                            <li>Ved køb af varer over 1.000 DKK. hos Scheel-Larsen.dk leverer og samler vi GRATIS..! på hele Sjælland.</li>
-                                            <li>Ved køb under 1.000 DKK. pålægges et fragtgebyr på 150 DKK.</li>
-                                            <li>Fragt til Jylland og Fyn 350 DKK.</li>
+                                            <li>Hotline på tlf. 36 41 11 24.</li>
+                                            <li>Køb for 1.000 kr - og får gratis levering.</li>
+                                            <li>2.000 kvm butik.</li>
                                         </ul>
                                     </div>
                                     <div class="w345 fr">
@@ -220,7 +220,9 @@ else{
                                         </table>
                                     </div>
                                 </div>
-                                <!--<a class="bntCheckout btn2" href="<?php echo JURI::base().'user/editaddresscheckoutBT.html';?>">GÅ TIL KASSEN</a>--> <a class="bntBasket btn2" href="index.php?option=com_virtuemart&view=cart">SE VAREKURV</a> </div>
+                                <a class="bntBasket btn2" href="index.php?option=com_virtuemart&view=cart">SE VAREKURV</a>
+								<a id="btnClose-cart2" style="margin:20px 10px 0 0;" href="javascript:void(0);" class="btnShopvidere fr hover cblack">Shop videre</a>
+							</div>
                             <!--.list-cart--> 
                         </div>
                     </div>
@@ -305,7 +307,7 @@ else{
             <div class="footer_bottom clearfix">
                 <div class="container">
                     <p class="fl">Copyright © 2014 <a href="index.php">roedovreisenkram.dk</a> . All rights reserved</p>
-                    <p class="fr">Design af <a target="_blank" href="http://www.mywebcreations.dk/">My Web Creations</a></p>
+                    <!--<p class="fr">Design af <a target="_blank" href="http://www.mywebcreations.dk/">My Web Creations</a></p>-->
                 </div>
             </div>
         </footer>
