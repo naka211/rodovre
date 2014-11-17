@@ -12,7 +12,7 @@ $cart->prepareCartViewData();
 foreach($cart->products as $product){
     $category_arr[] = $product->virtuemart_category_id;
 }
-if($category_arr[0] == 14){
+if($category_arr[0] == 71){
     $isGiftCard = true;
 } else {
     $isGiftCard = false;

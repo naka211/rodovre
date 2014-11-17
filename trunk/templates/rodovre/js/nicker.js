@@ -3,7 +3,7 @@ $(document).ready(function(){
         $shopcart       = $(".list-cart"),
         $btnAdd         = $("#btnAddcart"),
         $bgCart         = $('#bg-cart'),
-        $closeAll       = $('#btnClose-cart'),
+        $closeAll       = $('#btnClose-cart, #btnClose-cart2'),
         active          = "active",
         wWidth          = $(window).width(),
         wHeight         = $(window).height();

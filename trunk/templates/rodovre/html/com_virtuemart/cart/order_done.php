@@ -87,7 +87,7 @@ if($BT_info->ean){
 	$type = "Privat";
 }
 
-if($order['items'][0]->virtuemart_category_id == 14){
+if($order['items'][0]->virtuemart_category_id == 71){
     $isGiftCard = true;
 } else {
     $isGiftCard = false;
@@ -126,7 +126,7 @@ $cart->emptyCart();
     <div class="top_info">
       <p><strong>Ordrenummer: <?php echo $order['details']['BT']->order_number;?></strong><br>
         En ordrebekræftelse vil blive sendt til <strong><a href="mailto:<?php echo $order['details']['BT']->email;?>"><?php echo $order['details']['BT']->email;?></a></strong><br>
-        Har du spørgsmål, kan du kontakte os på +45 4162 8001</p>
+        Har du spørgsmål, kan du kontakte os på +45 3641 1124</p>
     </div>
     <div class="thanks_info clearfix">
       <div class="w460 fl">
@@ -326,8 +326,8 @@ $cart->emptyCart();
     <p>Tak for din bestilling.<br>
       Rødovre Centrum 132<br>
       2610 Rødovre<br>
-      Mobil: 36 41 11 24<br>
-      Email: ri@roedovreisenkram.dk</p>
+      Mobil: +45 3641 1124<br>
+      Email: info@isenkramshoppen.dk</p>
     <div class="goto clearfix"> <a href="index.php" class="btnHome fl hover">Til forside</a> <a href="index.php?option=com_virtuemart&view=invoice&layout=invoice&tmpl=component&virtuemart_order_id=<?php echo $order['details']['BT']->virtuemart_order_id;?>&order_number=<?php echo $order['details']['BT']->order_number;?>&order_pass=<?php echo $order['details']['BT']->order_pass;?>" class="btnPrint fl hover ml10" target="_blank">PRINT KVITTERING</a> </div>
   </div>
 </div>

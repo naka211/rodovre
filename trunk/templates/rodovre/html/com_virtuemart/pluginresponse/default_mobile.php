@@ -66,7 +66,7 @@ if($BT_info->company){
 	$type = "Privat";
 }
 
-if($order['items'][0]->virtuemart_category_id == 14){
+if($order['items'][0]->virtuemart_category_id == 71){
     $isGiftCard = true;
 } else {
     $isGiftCard = false;

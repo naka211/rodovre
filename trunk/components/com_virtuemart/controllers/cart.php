@@ -589,10 +589,20 @@ class VirtueMartControllerCart extends JController {
 				$cart->ST['message1'] = $cart->BT['message1'];
 			} else {
 				$cart->ST = array();
-				$cart->ST['first_name'] = JRequest::getVar('st_first_name');
-				$cart->ST['last_name'] = JRequest::getVar('st_last_name');
-				$cart->ST['email1'] = JRequest::getVar('st_email');
-				$cart->ST['message1'] = JRequest::getVar('st_message1');
+				if(JRequest::getVar('isGiftCard')){
+					$cart->ST['first_name'] = JRequest::getVar('st_first_name');
+					$cart->ST['last_name'] = JRequest::getVar('st_last_name');
+					$cart->ST['email1'] = JRequest::getVar('st_email');
+					$cart->ST['message1'] = JRequest::getVar('st_message1');
+				} else {
+					$cart->ST['first_name'] = JRequest::getVar('st_first_name');
+					$cart->ST['last_name'] = JRequest::getVar('st_last_name');
+					$cart->ST['street_name'] = JRequest::getVar('st_street_name');
+					$cart->ST['street_number'] = JRequest::getVar('st_street_number');
+					$cart->ST['zip'] = JRequest::getVar('st_zip');
+					$cart->ST['city'] = JRequest::getVar('st_city');
+					$cart->ST['phone_1'] = JRequest::getVar('st_phone');
+				}
 			}
 			//T.Trung end
             //print_r($cart);exit;
@@ -661,13 +671,13 @@ class VirtueMartControllerCart extends JController {
             }
             
            
-            if(($virtuemart_category_id == 14) && ($category_arr[0] != 14)){
+            if(($virtuemart_category_id == 71) && ($category_arr[0] != 71)){
                 $this->json->status = '1';
                 echo json_encode($this->json);
                 exit;
             }
             
-            if(($virtuemart_category_id != 14) && ($category_arr[0] == 14)){
+            if(($virtuemart_category_id != 71) && ($category_arr[0] == 71)){
                 $this->json->status = '1';
                 echo json_encode($this->json);
                 exit;
