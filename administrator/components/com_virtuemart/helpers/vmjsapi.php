@@ -400,7 +400,10 @@ class vmJsApi{
 		}
 		static $jDate;
 
-		$dateFormat = vmText::_('COM_VIRTUEMART_DATE_FORMAT_INPUT_J16');//="m/d/y"
+		//$dateFormat = vmText::_('COM_VIRTUEMART_DATE_FORMAT_INPUT_J16');//="m/d/y"
+		//T.Trung
+		$dateFormat = "d/m/y";
+		//T.Trung end
 		$search  = array('m', 'd', 'Y');
 		$replace = array('mm', 'dd', 'yy');
 		$jsDateFormat = str_replace($search, $replace, $dateFormat);

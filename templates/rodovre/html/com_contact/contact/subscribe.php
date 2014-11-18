@@ -28,7 +28,8 @@ if(JRequest::getVar('success')){?>
         Du er hermed tilmeldt vores nyhedsbrev.<br>
         <br>
         Med venlig hilsen<br>
-        RØDOVRE ISENKRAM ApS
+        Isenkramshoppen <br>
+		<a href="">TIL FORSIDE</a>
         </p>
     </div>
 </div>
