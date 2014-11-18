@@ -18,7 +18,70 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 		
 		
 		
-	";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:53:"List all News || All news from the VirtueMart project";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:142:"VirtueMart - a free, easy to use and up-to-date e-commerce solution. Fully integrated into a free, but professional Content Management System.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:38:"http://virtuemart.net/news/latest-news";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:13:"lastBuildDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 21 Oct 2014 04:15:27 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"generator";a:1:{i:0;a:5:{s:4:"data";s:40:"Joomla! - Open Source Content Management";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"language";a:1:{i:0;a:5:{s:4:"data";s:5:"en-gb";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"item";a:10:{i:0;a:6:{s:4:"data";s:31:"
+	";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:53:"List all News || All news from the VirtueMart project";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:142:"VirtueMart - a free, easy to use and up-to-date e-commerce solution. Fully integrated into a free, but professional Content Management System.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:38:"http://virtuemart.net/news/latest-news";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:13:"lastBuildDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 18 Nov 2014 02:41:29 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"generator";a:1:{i:0;a:5:{s:4:"data";s:40:"Joomla! - Open Source Content Management";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"language";a:1:{i:0;a:5:{s:4:"data";s:5:"en-gb";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"item";a:10:{i:0;a:6:{s:4:"data";s:31:"
+			
+			
+			
+			
+			
+			
+			
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:51:"VirtueMart 2.6.12 is released, Special Realex offer";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:93:"http://virtuemart.net/news/latest-news/464-virtuemart-2-6-12-is-released-special-realex-offer";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:93:"http://virtuemart.net/news/latest-news/464-virtuemart-2-6-12-is-released-special-realex-offer";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:6859:"<div class="feed-description"><p>We are pleased to announce the release of VirtueMart 2.6.12</p>
+<div class="special-download">
+<p style="text-align: center;"><a href="http://virtuemart.net//downloads" class="button-primary">Download VirtueMart 2.6.12</a></p>
+</div>
+<h2>Special Realex Offer</h2>
+<p>Realex Payments, one of Europe’s fastest growing payment solution providers, is delighted with its latest integration with Virtuemart, the free online shop solution. The integration with Virtuemart provides ecommerce merchants with a one-stop solution for merchant online payment processing. To mark this latest release, Realex Payments are offering 2 months FREE payment processing to all new VirtueMart merchants to their platform.</p>
+<p>Improve your online conversions with Realex Payments’ latest shopping cart integration with VirtueMart.</p>
+<div class="frontpage-features box-content"><img class="align-left" src="http://virtuemart.net//images/virtuemart/news/realex.png" alt="VirtueMart 2.6.12 includes Realex" />
+<div class="bfc-o">
+<p class="remove-margin">Realex Payments are offering 2 months FREE payment processing to all new VirtueMart merchants to their platform.</p>
+<a href="http://www.realexpayments.com/partner-referral?id=virtuemart" class="button-primary">Sign Up today</a></div>
+</div>
+<h2>VirtueMart 3 almost ready to launch</h2>
+<p>We release VirtueMart 3 next week.</p>
+<p>You have not tested yet? it is time to do it.</p>
+<p>You think you found a bug? please report it on the <a href="http://forum.virtuemart.net/index.php?board=136.0">forum</a>.</p>
+<p>Your are a 3rd party VirtueMart developer? Test your extension against the new version.</p>
+<div class="special-download">
+<p style="text-align: center;"><a href="http://dev.virtuemart.net/attachments/download/831/com_virtuemart.2.9.9.2_extract_first.zip" class="button-primary">Download the RC version of VirtueMart 3</a></p>
+</div>
+<h2>Updates and bug fixes VirtueMart 2.6.12</h2>
+<ul>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Category tree cache considers language now</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Realex: handling503; incorrect eci being submitted when card type is mastercard and eci value returned is 2;returntovm: missing option com_virtuemart; 503 dont block transactions; invalid payment infos errorcode 509;&nbsp;maestro cards, redirect in case of payment details error; added partial refund and partial capture</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Klarna: ok with opc off; country names; company/private fixed</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Vmpdf uses folder <span style="color: #333333; font-family: 'PT Sans'; font-size: 13px;">VMPATH_ROOT&nbsp;</span>instead of K_PATH_IMAGES</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Encrypted data is stored encrypted in vmtable cache</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Installation routine shows right options for fullinstaller</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">VmTable, enhanced Cache and other optimisations</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Payments autosubmit jquery</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Added VMPATH_ROOT constants for compatibility with VM3</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Fixed recipient in invoice/view.html.php rendermaillayout</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Controller alias vmplg</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">AIO: removed permission checking, list installed plugins</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Unpublished the uk states</span></li>
+<li>Permissions use joomla and/or virtuemart</li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Storemanagers can edit orders now (as requested)</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Removed "displayed name" from order edit address</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Loadvmtemplatestyle should now always load the fe style even fired from BE</span></li>
+<li><span style="color: #333333; font-family: 'PT Sans'; font-size: 10pt;">Preloading js</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Enhanced Registration email added address,</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Fixed typo in config/checkout</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Vmtable: added bindto</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">_getlayoutpath: checks if layout is in plugin folder and then plugin subfolder</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Access to update tools does not use issupervendor function anylonger</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Fixed error in shoppergroup list, that ordering for ids deleted the "default" shoppergroup&nbsp;</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Added order status list for desired attachment order status&nbsp;</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Readded to continue_link_html the class in the link class="continue continue_link"</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Added attachment for mail. Use attach_os as array in the config file for the desired orderstatus&nbsp;</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Added option reuseorders, also settable by config file.</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Minor in userfields load function</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Payments using json_encode</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Shopper group name in payment/shipment</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Just added the filter for the dot again (slug creation)</span></li>
+<li><span style="font-size: 10pt; font-family: 'PT Sans'; color: #333333;">Joomla update server fix</span></li>
+</ul></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:41:"valerie@virtuemart.net (Valérie Isaksen)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:11:"Latest News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 23 Oct 2014 22:29:16 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:31:"
 			
 			
 			
@@ -68,7 +131,7 @@ if (!$user-&gt;bind($whiteDataToBind)) {
 <p>The JUser model bind function just loops through the properties of the class and sets data with the same name to the object. The filtering is done by an attached JForm (Gui elements) to filter the input of the data. So if developers use the joomla model without form, they have to filter the data themself, else it is possible to override internal variables of the object. <br />The binding for normal JTables does not override internal variables as long you follow the habit/convention to name them with a trailing underscore _. The check function additionally ensures that the data is correct. But the juser object does not follow the own joomla habits. Additionally it is very unclean to use MVC and to have a model, which needs GUI elements to do correct filtering. There exists enough tasks to use a model without any GUI. For a developer just using the joomla API it is like a trap. A model should be secure by itself, without the need of a "View" or "Controller" to be safe. SCNR, but joomla 2.5.16 fixed a security leak in some the JFormFields. So other solutions based on that were also very unsecure for years.</p>
 <p>The suggested fix in the joomla user model is very easy. Just unset the sensitive data, if a user is not admin. This should be done in the bind function and in the store function. The advantage lays on the hand. <br />A lot other extensions for joomla become more secure. It is very unlikely that only VM has this problem.<br />People can do a small joomla update and still use their modified extensions.</p>
 <p>Personally I see the request for full disclosure as a typical academic, but noobish request. Not only the good guys learn from disclosures. The black hat fraction also learns from it. It is important to differ and sometimes a full disclosure makes absolut sense, but not always. It depends on the complexity of the problem, how many people already know about, the reaction of the maintainers, and so on.</p>
-<p>&nbsp;</p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:26:"milbo@gmx.de (Max Milbers)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:11:"Latest News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 12 Sep 2014 13:20:21 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:31:"
+<p>&nbsp;</p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:26:"milbo@gmx.de (Max Milbers)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:11:"Latest News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 12 Sep 2014 13:20:21 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:31:"
 			
 			
 			
@@ -128,7 +191,7 @@ if (!$user-&gt;bind($whiteDataToBind)) {
 <p>&nbsp;</p>
 <div class="special-download">
 <p style="text-align: center;"><a href="http://virtuemart.net//downloads" class="button-primary">DOWNLOAD NOW</a></p>
-</div></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:41:"valerie@virtuemart.net (Valérie Isaksen)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:11:"Latest News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 15 Aug 2014 19:02:31 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:31:"
+</div></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:41:"valerie@virtuemart.net (Valérie Isaksen)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:11:"Latest News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 15 Aug 2014 19:02:31 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:31:"
 			
 			
 			
@@ -170,7 +233,7 @@ if (!$user-&gt;bind($whiteDataToBind)) {
 <p style="text-align: center;"><a class="button-primary" href="http://extensions.virtuemart.net/support/virtuemart-supporter-membership-detail">Become a VirtueMart Associate Member</a>
 </p>
 <p>There is also already a thread about this in the forum&nbsp;<a href="http://forum.virtuemart.net/index.php?topic=124355.0">http://forum.virtuemart.net/index.php?topic=124355.0</a>
-</p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:26:"milbo@gmx.de (Max Milbers)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:11:"Latest News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 04 Jul 2014 20:02:08 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:31:"
+</p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:26:"milbo@gmx.de (Max Milbers)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:11:"Latest News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 04 Jul 2014 20:02:08 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:31:"
 			
 			
 			
@@ -198,7 +261,7 @@ if (!$user-&gt;bind($whiteDataToBind)) {
 </ul>
 <div class="special-download">
 <p style="text-align: center;"><a class="button-primary" href="http://virtuemart.net/downloads">DOWNLOAD NOW</a></p>
-</div></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:41:"valerie@virtuemart.net (Valérie Isaksen)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:11:"Latest News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 29 May 2014 21:06:11 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:31:"
+</div></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:41:"valerie@virtuemart.net (Valérie Isaksen)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:11:"Latest News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 29 May 2014 21:06:11 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:31:"
 			
 			
 			
@@ -222,7 +285,7 @@ if (!$user-&gt;bind($whiteDataToBind)) {
 <div class="special-download">
 	<p style="text-align: center;"><a class="button-primary" href="http://virtuemart.net/downloads">DOWNLOAD NOW</a>
 	</p>
-</div></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:41:"valerie@virtuemart.net (Valérie Isaksen)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:11:"Latest News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 21 May 2014 20:29:08 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:31:"
+</div></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:41:"valerie@virtuemart.net (Valérie Isaksen)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:11:"Latest News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 21 May 2014 20:29:08 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:31:"
 			
 			
 			
@@ -303,7 +366,7 @@ if (!$user-&gt;bind($whiteDataToBind)) {
 <p style="text-align: left;">&nbsp;</p>
 <h2>For the people waiting on VirtueMart for Joomla 3&nbsp;</h2>
 <p>VirtueMart 3 is almost ready. The situation is maybe similar to vm2.5.3. The more testers and reports the faster we can release. Please download Virtuemart 2.9 (the beta for VM3) here&nbsp;<a href="http://dev.virtuemart.net/projects/virtuemart/files">http://dev.virtuemart.net/projects/virtuemart/files</a>. Search for the latest vm2.9.x, join us in the forum, tell us your experience with it <a href="http://forum.virtuemart.net/index.php?board=136.0">http://forum.virtuemart.net/index.php?board=136.0</a>.</p>
-<p>&nbsp;</p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:41:"valerie@virtuemart.net (Valérie Isaksen)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:11:"Latest News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 09 May 2014 18:10:09 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:31:"
+<p>&nbsp;</p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:41:"valerie@virtuemart.net (Valérie Isaksen)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:11:"Latest News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 09 May 2014 18:10:09 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:31:"
 			
 			
 			
@@ -311,7 +374,7 @@ if (!$user-&gt;bind($whiteDataToBind)) {
 			
 			
 			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:37:"VirtueMart are proud to release VM2.6";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:80:"http://virtuemart.net/news/latest-news/456-virtuemart-are-proud-to-release-vm2-6";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:80:"http://virtuemart.net/news/latest-news/456-virtuemart-are-proud-to-release-vm2-6";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:15080:"<div class="feed-description"><p><a href="http://virtuemart.net/#vm2.6">Release of VirtueMart 2.6</a>, <a href="http://virtuemart.net/#vm3">VirtueMart 3 for Joomla 3 </a>is coming soon. New:<a href="http://virtuemart.net/#download"> Full Installer</a>&nbsp;including Joomla and VirtueMart.&nbsp;</p>
+		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:37:"VirtueMart are proud to release VM2.6";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:80:"http://virtuemart.net/news/latest-news/456-virtuemart-are-proud-to-release-vm2-6";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:80:"http://virtuemart.net/news/latest-news/456-virtuemart-are-proud-to-release-vm2-6";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:15086:"<div class="feed-description"><p><a href="http://virtuemart.net/#vm2.6">Release of VirtueMart 2.6</a>, <a href="http://virtuemart.net/#vm3">VirtueMart 3 for Joomla 3 </a>is coming soon. New:<a href="http://virtuemart.net/#download"> Full Installer</a>&nbsp;including Joomla and VirtueMart.&nbsp;</p>
 <p class="box-warning"><a href="http://virtuemart.net/#requirements">New minimum requirement for VirtueMart is <strong>php 5.3.10</strong></a></p>
 <h2><a name="vm2.6"></a>Enhanced Features:</h2>
 <p>With so many changes over the past couple of years, we noticed that many small and big features have been added to the core of VirtueMart. Some of these have been provided by 3rd party developers, whilst others were added as workarounds to remove/avoid bugs, or to complete a feature, which combined with our increased experience has translated into many more general and useful functions.</p>
@@ -352,15 +415,15 @@ if (!$user-&gt;bind($whiteDataToBind)) {
 	</h3>
 </div>
 <div class="special-download">
-	<p style="text-align: center;"><a href="http://dev.virtuemart.net/attachments/download/786/com_virtuemart.2.6.10_extract_first.zip" class="button-primary">DOWNLOAD NOW<br /> VirtueMart component (core and AIO) only</a>
+	<p style="text-align: center;"><a href="http://dev.virtuemart.net/attachments/download/867/com_virtuemart.2.6.12.2_extract_first.zip" class="button-primary">DOWNLOAD NOW<br /> VirtueMart component (core and AIO) only</a>
 	</p>
 </div>
 <div class="special-download">
-	<p style="text-align: center;"><a href="http://dev.virtuemart.net/attachments/download/787/VirtueMart2.6.10_Joomla_2.5.24-Stable-Full_Package.zip" class="button-primary">DOWNLOAD NOW <br />Full installer includes Joomla with VirtueMart installed</a>
+	<p style="text-align: center;"><a href="http://dev.virtuemart.net/attachments/download/866/VirtueMart2.6.12.2_Joomla_2.5.27-Stable-Full_Package.zip" class="button-primary">DOWNLOAD NOW <br />Full installer includes Joomla with VirtueMart installed</a>
 	</p>
 </div>
 <div class="special-download">
-	<p style="text-align: center;"><a href="http://dev.virtuemart.net/attachments/download/822/com_virtuemart.2.9.9f_extract_first.zip" class="button-primary">DOWNLOAD VM3 NOW <br />VirtueMart 3 Release Candidate (2.9.9f core and AIO)</a>
+	<p style="text-align: center;"><a href="http://dev.virtuemart.net/attachments/download/861/com_virtuemart.2.9.9.4_extract_first.zip" class="button-primary">DOWNLOAD VM3 NOW <br />VirtueMart 3 Release Candidate (2.9.9.4 core and AIO)</a>
 	</p>
 </div>
 <ul>
@@ -417,7 +480,7 @@ if (!$user-&gt;bind($whiteDataToBind)) {
 	</div>
 </div>
 <p>&nbsp;</p><!-- END: Articles Anywhere -->
-<p>&nbsp;</p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:26:"milbo@gmx.de (Max Milbers)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:11:"Latest News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 07 Apr 2014 21:39:02 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:31:"
+<p>&nbsp;</p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:26:"milbo@gmx.de (Max Milbers)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:11:"Latest News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 07 Apr 2014 21:39:02 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:31:"
 			
 			
 			
@@ -455,7 +518,7 @@ if (!$user-&gt;bind($whiteDataToBind)) {
 <li>PayPal Express Checkout order link fixed</li>
 <li>Obsolete usergroups files removed</li>
 </ul>
-<h2><a class="button-primary" href="http://dev.virtuemart.net/attachments/download/670/com_virtuemart.2.0.26a_extract_first.zip">Download VirtueMart 2.0.26a</a></h2></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:26:"milbo@gmx.de (Max Milbers)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:11:"Latest News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 19 Dec 2013 22:10:46 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:31:"
+<h2><a class="button-primary" href="http://dev.virtuemart.net/attachments/download/670/com_virtuemart.2.0.26a_extract_first.zip">Download VirtueMart 2.0.26a</a></h2></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:26:"milbo@gmx.de (Max Milbers)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:11:"Latest News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 19 Dec 2013 22:10:46 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:31:"
 			
 			
 			
@@ -518,22 +581,4 @@ if (!$user-&gt;bind($whiteDataToBind)) {
 <li>All VM errors are logged</li>
 <li>Heidelpay:&nbsp;switch on sepa for direct debit. You can now use IBan and Bic, instead of account and bank no.</li>
 </ul>
-<h2><a class="button-primary" href="http://dev.virtuemart.net/attachments/download/669/com_virtuemart.2.0.26_extract_first.zip">Download VirtueMart 2.0.26</a></h2></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:41:"valerie@virtuemart.net (Valérie Isaksen)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:11:"Latest News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 13 Dec 2013 16:34:41 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:31:"
-			
-			
-			
-			
-			
-			
-			
-		";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:7:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:43:"VirtueMart 2.0.24a includes Klarna Checkout";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:86:"http://virtuemart.net/news/latest-news/450-virtuemart-2-0-24a-includes-klarna-checkout";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:86:"http://virtuemart.net/news/latest-news/450-virtuemart-2-0-24a-includes-klarna-checkout";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1077:"<div class="feed-description"><ul>
-<li><a href="http://virtuemart.net/#KCO">VirtueMart 2.0.24a includes Klarna Checkout</a>&nbsp;</li>
-<li><a href="http://virtuemart.net/#AvaTax">AvaTax in VirtueMart</a>&nbsp;</li>
-<li><a href="http://virtuemart.net/#vad">VirtueMart present at the VADconnext fair</a>&nbsp;</li>
-<li><a href="http://virtuemart.net/#features">New features in VirtueMart 2.0.24a</a></li>
-</ul>
-<h2><a name="KCO"></a>Klarna Checkout is available for VirtueMart</h2>
-<p>We are proud to announce that effective today, Klarna Checkout is available for VirtueMart!</p>
-<h3>Klarna Checkout</h3>
-<p>Klarna Checkout is the revolutionary payment solution that changes the way the world shops online. With Klarna Checkout, you can offer your customers all the popular payment methods in one payment solution. Ingeniously simple and friction free. Klarna Checkout is today available for Sweden, Norway and Finland.</p>
-<p class="feed-readmore"><a target="_blank" href ="/news/latest-news/450-virtuemart-2-0-24a-includes-klarna-checkout">Read More...</a></p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:41:"valerie@virtuemart.net (Valérie Isaksen)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:11:"Latest News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 15 Nov 2013 17:14:56 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:3:"rel";s:4:"self";s:4:"type";s:19:"application/rss+xml";s:4:"href";s:61:"http://virtuemart.net/news/list-all-news?format=feed&type=rss";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}s:4:"type";i:128;s:7:"headers";a:10:{s:4:"date";s:29:"Tue, 21 Oct 2014 04:15:26 GMT";s:6:"server";s:6:"Apache";s:3:"p3p";s:48:"CP=NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM";s:13:"cache-control";s:8:"no-cache";s:6:"pragma";s:8:"no-cache";s:10:"set-cookie";s:77:"9e647fd8d51d540064a09a04d5bcd417=4fif0ghev5c2jl6pvg44m9d671; path=/; HttpOnly";s:4:"vary";s:15:"Accept-Encoding";s:16:"content-encoding";s:4:"gzip";s:14:"content-length";s:5:"19341";s:12:"content-type";s:34:"application/rss+xml; charset=utf-8";}s:5:"build";s:14:"20090627192103";}
+<h2><a class="button-primary" href="http://dev.virtuemart.net/attachments/download/669/com_virtuemart.2.0.26_extract_first.zip">Download VirtueMart 2.0.26</a></h2></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:41:"valerie@virtuemart.net (Valérie Isaksen)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"category";a:1:{i:0;a:5:{s:4:"data";s:11:"Latest News";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 13 Dec 2013 16:34:41 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:3:"rel";s:4:"self";s:4:"type";s:19:"application/rss+xml";s:4:"href";s:61:"http://virtuemart.net/news/list-all-news?format=feed&type=rss";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}s:4:"type";i:128;s:7:"headers";a:10:{s:4:"date";s:29:"Tue, 18 Nov 2014 02:41:29 GMT";s:6:"server";s:6:"Apache";s:3:"p3p";s:48:"CP=NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM";s:13:"cache-control";s:8:"no-cache";s:6:"pragma";s:8:"no-cache";s:10:"set-cookie";s:77:"9e647fd8d51d540064a09a04d5bcd417=1u543fsuhqorivkpfdbv9nenv4; path=/; HttpOnly";s:4:"vary";s:15:"Accept-Encoding";s:16:"content-encoding";s:4:"gzip";s:14:"content-length";s:5:"20463";s:12:"content-type";s:34:"application/rss+xml; charset=utf-8";}s:5:"build";s:14:"20090627192103";}

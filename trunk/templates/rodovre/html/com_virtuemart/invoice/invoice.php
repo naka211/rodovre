@@ -234,11 +234,9 @@ if($this->orderDetails['details']['BT']->coupon_code){
 			<tr>
 				<td valign="top" height="30">
                 <?php if($this->orderDetails['details']['BT']->virtuemart_shipmentmethod_id == 1){?>
-                Afhentning på Hesselrødvej 26, 2980 Kokkedal
+                Afhentning i Rødovre Centrum
                 <?php } else if($this->orderDetails['details']['BT']->virtuemart_shipmentmethod_id == 2){?>
-                Leveret på Sjælland
-                <?php } else if($this->orderDetails['details']['BT']->virtuemart_shipmentmethod_id == 3){?>
-                Leveret til døren for Fyn og Jylland
+                Levering til døren ved PostDanmark
                 <?php } else {?>
                 Leveret via e-mail
                 <?php }?>
