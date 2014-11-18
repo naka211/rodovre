@@ -169,11 +169,9 @@ $cart->emptyCart();
         <p>
           <label for="">Levering:</label>
         <?php if($order['details']['BT']->virtuemart_shipmentmethod_id == 1){?>
-        <span>Afhentning på Hesselrødvej 26, 2980 Kokkedal</span>
+        <span>Afhentning i Rødovre Centrum</span>
         <?php } else if($order['details']['BT']->virtuemart_shipmentmethod_id == 2){?>
-        <span>Leveret på Sjælland</span>
-        <?php } else if($order['details']['BT']->virtuemart_shipmentmethod_id == 3){?>
-        <span>Leveret til døren for Fyn og Jylland</span>
+        <span>Levering til døren ved PostDanmark</span>
         <?php } else {?>
         <span>Leveret via e-mail</span>
         <?php }?>

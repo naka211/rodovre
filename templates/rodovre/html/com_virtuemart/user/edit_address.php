@@ -195,20 +195,11 @@ jQuery(document).ready(function(){
 	setDelivery = function(zipcode){
         if(zipcode){
             zipcode = Number(zipcode);
-            if(zipcode < 5000) {
-                jQuery("#ship1").val(2);
-                var subtotal = Number(jQuery("#subtotal").val());
-                if(subtotal <= 1000){
-                    var fee = 150;
-                } else {
-                    var fee = 0;
-                }
-                var text = 'Leveret på Sjælland: ';
-            } else {
-                jQuery("#ship1").val(3);
-                var fee = 350;
-                var text = 'Leveret til døren for Fyn og Jylland: ';
-            }
+            
+			jQuery("#ship1").val(2);
+			var fee = 49;
+			var text = 'Levering til døren ved PostDanmark: ';
+            
             <?php if($isGiftCard){?>
             fee = 0;
             <?php }?>

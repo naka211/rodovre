@@ -308,14 +308,12 @@ table tr td table.top_info {
                                 <td colspan="4">
                                 <table width="100%">
                                     <tbody><tr>
-                                        <td width="18%" valign="top" align="left">Levering:</td>
-                                        <td width="82%">
+                                        <td width="14%" valign="top" align="left">Levering:</td>
+                                        <td width="86%">
                                         <?php if($orderDetail->virtuemart_shipmentmethod_id == 1){?>
-                                        <span>Afhentning på Hesselrødvej 26, 2980 Kokkedal</span>
+                                        <span>Afhentning i Rødovre Centrum</span>
                                         <?php } else if($orderDetail->virtuemart_shipmentmethod_id == 2){?>
-                                        <span>Leveret på Sjælland</span>
-                                        <?php } else if($orderDetail->virtuemart_shipmentmethod_id == 3){?>
-                                        <span>Leveret til døren for Fyn og Jylland</span>
+                                        <span>Levering til døren ved PostDanmark</span>
                                         <?php } else {?>
                                         <span>Leveret via e-mail</span>
                                         <?php }?>
@@ -408,7 +406,7 @@ table tr td table.top_info {
                                     </table></td>
                             </tr>
                         </tbody>
-                    </table></td>
+                    </table><br />Isenkramshoppen - Rødovre Centrum 132 - 2610 Rødovre - Tlf. 36 41 11 24 - info@isenkramshoppen.dk</td>
             </tr>
         </tbody>
     </table>

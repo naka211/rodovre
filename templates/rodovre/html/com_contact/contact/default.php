@@ -30,7 +30,9 @@ if(JRequest::getVar('success')){?>
         Tak for din henvendelse. Vi vil kontakte dig hurtigst muligt.<br>
         <br>
         Med venlig hilsen<br>
-        Scheel-Larsen </p>
+        Isenkramshoppen <br>
+		<a href="">TIL FORSIDE</a>
+		</p>
     </div>
 </div>
 <?php } else {?>
