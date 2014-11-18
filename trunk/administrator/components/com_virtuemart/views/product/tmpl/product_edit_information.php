@@ -150,7 +150,7 @@ img#type_image_src {
 			}?>
 		</tr>
         <!--T.Trung-->
-        <?php 
+        <?php /*
         if($this->document->language == 'da-dk'){
             $select_text = 'Vælg et billede';
             $width_text = 'Bredde';
@@ -209,7 +209,7 @@ img#type_image_src {
             <td colspan="6">
                 <div style="width:100px; float:left;">Video: </div><input type="text" name="video" value="<?php echo $this->product->video;?>" style="margin:0px 0px 5px; width:200px" />
             </td>
-        </tr>
+        </tr><?php */?>
         <!--T.Trung end-->
         
 	</table>
