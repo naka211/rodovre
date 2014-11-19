@@ -39,7 +39,7 @@ $msgtype = 'authorize';
 $merchant = '21218146';
 $language = 'da';
 $ordernumber = $order['details']['BT']->order_number;
-$amount = $order['details']['BT']->order_total * 100;
+$amount = number_format($order['details']['BT']->order_total, 2, '.', '') * 100;
 
 $currency = 'DKK';
 $continueurl = $siteURL . 'index.php?option=com_virtuemart&view=pluginresponse&task=pluginResponseReceived&pm='.$pm.'&ordernumber='.$ordernumber.'&virtuemart_order_id='.$orderid;
