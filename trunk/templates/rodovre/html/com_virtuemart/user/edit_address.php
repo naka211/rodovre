@@ -321,7 +321,7 @@ jQuery(document).ready(function(){
                     <?php if(!$isGiftCard){?>
                     <a class="btnLevering hover showDelivery cblack" href="javascript:void(0);">Levering til anden adresse</a>
                     <?php } else {?>
-                    <a class="btnLevering1 hover showDelivery cblack" href="javascript:void(0);">Modtageren af gavekortet</a>
+                    <a class="btnLevering hover showDelivery cblack" href="javascript:void(0);">Modtageren af gavekortet</a>
                     <?php }?>
                     <div class="w_Address clearfix">
                         
