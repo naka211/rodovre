@@ -175,6 +175,10 @@ if (VmConfig::get ('showCategory', 1) and empty($this->keyword)) {
 			$file_url = $db->loadResult();
 		}
 		
+		if(!$file_url){
+			$file_url = JURI::base()."components/com_virtuemart/assets/images/vmgeneral/noimage.gif";
+		}
+		
 		$link=JRoute::_ ( 'index.php?option=com_virtuemart&view=productdetails&virtuemart_product_id=' . $product->virtuemart_product_id . '&virtuemart_category_id=' . $product->virtuemart_category_id );
 		// Show Products
 		?>
