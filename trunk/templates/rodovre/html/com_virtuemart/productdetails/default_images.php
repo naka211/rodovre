@@ -16,6 +16,10 @@ if($vmi){
 	$db->setQuery("SELECT file_url FROM #__virtuemart_medias WHERE virtuemart_media_id = ".$vmi);
 	$file_url = $db->loadResult();
 }
+
+if(!$file_url){
+	$file_url = JURI::base()."components/com_virtuemart/assets/images/vmgeneral/noimage.gif";
+}
 ?>
 	<h6 class="w_brand">
 		<img src="<?php echo JURI::base().'thumbnail/timthumb.php?src='.$file_url.'&q=100&h=31'; ?>" />
