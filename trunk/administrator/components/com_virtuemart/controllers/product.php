@@ -496,9 +496,7 @@ class VirtuemartControllerProduct extends VmController {
                     "view" => "product",
                     "virtuemart_product_id" => 0,
                     "product_parent_id" => 0,
-                    "product_delivery" => 0,
-                    "variant_gruppe" => ''
-                    
+                    "product_delivery" => 0                    
                 );
         
                 $db->setQuery ('SELECT mf_name name, virtuemart_manufacturer_id id FROM `#__virtuemart_manufacturers_' . VMLANG . '`');
@@ -566,7 +564,7 @@ class VirtuemartControllerProduct extends VmController {
                                 }
                             }
                             
-                            $rec["mprices"]["product_price"] = array(str_replace(',', '', $sheetData[$j]['F']));
+                            $rec["mprices"]["product_price"] = array(str_replace(',', '', $sheetData[$j]['E']));
                 
                             if($sheetData[$j]['F'] && ($sheetData[$j]['F'] < $sheetData[$j]['E'])){
                                 $tmp0 = $sheetData[$j]['F'] - $sheetData[$j]['E'];
@@ -584,7 +582,7 @@ class VirtuemartControllerProduct extends VmController {
                                 }
                             }
                             $rec["mprices"]["product_override_price"] = array(str_replace(',', '', $sheetData[$j]['G']));
-                            if($sheetData[$j]['H']){
+                            if($sheetData[$j]['G']){
                                 $rec["mprices"]["override"] = array(1);
                             }
                             $rec["mprices"]["product_price_publish_up"] = array($sheetData[$j]['H']);
@@ -594,7 +592,7 @@ class VirtuemartControllerProduct extends VmController {
                             $rec["product_sku"] = $sheetData[$j]['A'];
                             $rec["published"] = $sheetData[$j]['O'];
                             $rec["product_delivery"] = $sheetData[$j]['K'];
-                
+                			
                             $cat_tmp = 0;
                             foreach($cats as $o){
                                 if((mb_convert_case($o->pname, MB_CASE_TITLE, "UTF-8")==mb_convert_case($sheetData[$j]['L'], MB_CASE_TITLE, "UTF-8")) AND (mb_convert_case($o->cname, MB_CASE_TITLE, "UTF-8")==mb_convert_case($sheetData[$j]['M'], MB_CASE_TITLE, "UTF-8"))){
@@ -612,7 +610,7 @@ class VirtuemartControllerProduct extends VmController {
                             }
                             $rec["categories"] = array($cat_tmp, $catid);
                                 
-                                
+                            
                             $product_id = $this->check_product($sheetData[$j]['A']);
                             if($product_id){
                                 $rec["virtuemart_product_id"] = $product_id;
@@ -636,7 +634,6 @@ class VirtuemartControllerProduct extends VmController {
                     }
                     
                 }
-                
                 
                 if(mysql_error()){
                     echo '<script>alert("Error: '.mysql_error().'");window.history.go(-1);</script>';	
