@@ -7,11 +7,11 @@
 -------------------------------------------------------------- */
 body {font-family:'Myriad Pro Regular', Arial, sans-serif; color: #7e7e7e; font-size: 13px;}
 
-h1, h2, h3, h4, h5, h6 { color: black; font-family: 'gothic', Helvetica, Arial, sans-serif; font-weight: normal; line-height: 1.3em; text-transform: uppercase; color: #505050;}
+h1, h2, h3, h4, h5, h6 { color: black; font-family: 'gothic', Helvetica, Arial, sans-serif; font-weight: normal; line-height: 1.3em; color: #505050;}
 
 h1 {font-size: 24px;}
 h2 {font-size: 20px; color: #505050; font-weight: lighter; text-transform: uppercase;}
-h3 {font-size: 16px; color: #000;}
+h3 {font-size: 15px; color: #000;}
 
 /* Text elements
 -------------------------------------------------------------- */
@@ -241,7 +241,7 @@ ul.cate li:hover ul li a {color: #505050;}
 .products ul:nth-child(n+2) li:hover {background: url(../img/hover_li.png) no-repeat bottom center;}
 .products ul li h3 {margin: 10px 0 0;}
 .products ul li h4 {margin: 10px 0 0; font-size: 18px; color: #669903;}
-.products ul li h4.price_2 { position: absolute; bottom: 5px; left: 90px; z-index: 1;}
+.products ul li h4.price_2 { position: absolute; bottom: 5px; z-index: 1; width:215px; text-align:center;}
 .products ul li .price_sale {font-size: 12px; font-family: 'gothic'; color: #646464;}
 .products ul li .price_before {font-size: 12px; font-family: 'gothic'; color: #646464; text-decoration: line-through;}
 .products ul li p {margin-bottom: 0;}
