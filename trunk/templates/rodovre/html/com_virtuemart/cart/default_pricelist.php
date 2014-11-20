@@ -182,9 +182,9 @@ foreach ($this->cart->products as $pkey => $prow) {
                       <tr>
                         <td colspan="2">
                           <ul>
-                            <li>Ved køb af varer over 1.000 DKK. hos Scheel-Larsen.dk leverer og samler vi GRATIS..! på hele Sjælland.</li>
-                            <li>Ved køb under 1.000 DKK. pålægges et fragtgebyr på 150 DKK.</li>
-                            <li>Fragt til Jylland 350 DKK.</li>
+                            <li>Hotline på tlf. 36 41 11 24.</li>
+							<li>Køb for 1.000 kr - og får gratis levering.</li>
+							<li>2.000 kvm butik.</li>
                           </ul>
                         </td>
                         <td colspan="2" width="39%">

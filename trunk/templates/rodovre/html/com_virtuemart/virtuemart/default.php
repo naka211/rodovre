@@ -96,7 +96,10 @@ foreach ( $this->products['featured'] as $product ) { //print_r($product);exit;
                 <p class="price_sale">(De sparer: <?php echo $this->currency->priceDisplay(abs($product->prices['discountAmount']),0,1.0,false,$this->currency->_priceConfig['discountAmount'][1] );?>) </p>
                 <?php }?>
                 <h4><?php echo $this->currency->priceDisplay($product->prices['salesPrice'],0,1.0,false,$this->currency->_priceConfig['salesPrice'][1] );?></h4>
-                <a class="btnMore btn2" href="<?php echo $link;?>">Vis detaljer</a>
+				<a style="text-align:center; margin-bottom:5px;" href="<?php echo $link;?>">Vis detaljer</a>
+				<div class="add-cart">
+                	<a class="btnMore btn2" rel="<?php echo $product->virtuemart_product_id?>">Læg i Kurv</a>
+				</div>
             </div>            
         </li>
         <?php
@@ -104,3 +107,22 @@ foreach ( $this->products['featured'] as $product ) { //print_r($product);exit;
 ?>
     </ul>
 </div>
+<script type="text/javascript">
+	jQuery(".add-cart a").click(function(e){
+	jQuery.ajax( {
+	type: "POST",
+	url: "index.php?quantity%5B%5D=1&option=com_virtuemart&view=cart&virtuemart_product_id%5B%5D="+jQuery(this).attr("rel")+"&task=addJS",
+	data: jQuery(this).serialize(),
+	success: function( response ){
+		var data = JSON.parse(response);
+		if(data.status == 1){
+			jQuery('#f_note').reveal();
+			return false;
+		}
+		Virtuemart.productUpdate();
+		jQuery(".img-cart").click();
+	}
+	});
+	return false;
+});
+</script>
