@@ -223,7 +223,10 @@ if (VmConfig::get ('showCategory', 1) and empty($this->keyword)) {
                                         echo $this->currency->priceDisplay($product->prices['salesPrice'],0,1.0,false,$this->currency->_priceConfig['salesPrice'][1] );
                             ?>
                             </h4>
-                            <a class="btnMore btn2" href="<?php echo $link?>">Vis detaljer</a>
+                            <a style="text-align:center; margin-bottom:5px;" href="<?php echo $link;?>">Vis detaljer</a>
+							<div class="add-cart">
+								<a class="btnMore btn2" rel="<?php echo $product->virtuemart_product_id?>">Læg i Kurv</a>
+							</div>
                         
 		<?php
 	} // end of foreach ( $this->products as $product )
@@ -247,11 +250,16 @@ if($iBrowseCol != 1)
 	jQuery(".add-cart a").click(function(e){
 	jQuery.ajax( {
 	type: "POST",
-	url: "index.php?quantity%5B%5D=1&option=com_virtuemart&view=cart&virtuemart_product_id%5B%5D="+jQuery(this).attr("rel")+"&task=add",
+	url: "index.php?quantity%5B%5D=1&option=com_virtuemart&view=cart&virtuemart_product_id%5B%5D="+jQuery(this).attr("rel")+"&task=addJS",
 	data: jQuery(this).serialize(),
 	success: function( response ){
-		cart_update();
-		jQuery("#btnAddItem").click();
+		var data = JSON.parse(response);
+		if(data.status == 1){
+			jQuery('#f_note').reveal();
+			return false;
+		}
+		Virtuemart.productUpdate();
+		jQuery(".img-cart").click();
 	}
 	});
 	return false;

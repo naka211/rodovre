@@ -449,6 +449,7 @@ jQuery(document).ready(function(){
         <input type="hidden" id="total" value="<?php echo $cart->pricesUnformatted['billTotal']?>" />
         <input type="hidden" id="shipFee" value=""/>
         <input type="hidden" id="pay3" name="" value=""/>
+		<input type="hidden" id="isGiftCard" name="isGiftCard" value="<?php if($isGiftCard) echo 1; else echo 0;?>"/>
         
         <input type="hidden" name="option" value="com_virtuemart"/>
         <input type="hidden" name="view" value="cart"/>
