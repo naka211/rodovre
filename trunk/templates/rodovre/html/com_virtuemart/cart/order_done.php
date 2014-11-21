@@ -326,6 +326,6 @@ $cart->emptyCart();
       2610 Rødovre<br>
       Mobil: +45 3641 1124<br>
       Email: info@isenkramshoppen.dk</p>
-    <div class="goto clearfix"> <a href="index.php" class="btnHome fl hover">Til forside</a> <a href="index.php?option=com_virtuemart&view=invoice&layout=invoice&tmpl=component&virtuemart_order_id=<?php echo $order['details']['BT']->virtuemart_order_id;?>&order_number=<?php echo $order['details']['BT']->order_number;?>&order_pass=<?php echo $order['details']['BT']->order_pass;?>" class="btnPrint fl hover ml10" target="_blank">PRINT KVITTERING</a> </div>
+    <div class="goto clearfix"> <a href="index.php" class="btnHome fl hover cblack">Til forside</a> <a href="index.php?option=com_virtuemart&view=invoice&layout=invoice&tmpl=component&virtuemart_order_id=<?php echo $order['details']['BT']->virtuemart_order_id;?>&order_number=<?php echo $order['details']['BT']->order_number;?>&order_pass=<?php echo $order['details']['BT']->order_pass;?>" class="btnPrint fl hover ml10 cblack" target="_blank">PRINT KVITTERING</a> </div>
   </div>
 </div>
