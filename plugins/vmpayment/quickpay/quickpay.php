@@ -249,7 +249,7 @@ class plgVMPaymentQuickpay extends vmPSPlugin {
 	$cart = VirtueMartCart::getCart(); 
 	$cart->emptyCart();
 	
-	return true; 
+	return true;
     }
 
     function plgVmOnUserPaymentCancel() {
@@ -342,7 +342,7 @@ class plgVMPaymentQuickpay extends vmPSPlugin {
     	$this->logInfo('plgVmOnPaymentNotification session:', $return_context);
 
     	// Update any payment fee
-    	/*if (isset($callbackData['fee'])) {
+    	if (isset($callbackData['fee'])) {
     	  $quickPayFee = (float)($callbackData['fee'])/(float)100.0;
     	  $db = JFactory::getDBO();
     	  $query = "update #__virtuemart_orders SET order_payment=" . $quickPayFee . ",order_total = order_total+$quickPayFee WHERE virtuemart_order_id=" . $virtuemart_order_id;
@@ -359,7 +359,7 @@ class plgVMPaymentQuickpay extends vmPSPlugin {
     	$modelOrder->updateStatusForOneOrder($virtuemart_order_id, $order, true);
     
     	$this->logInfo('Notification, sentOrderConfirmedEmail ' . $order_number . ' ' . $new_status, 'message'); //// remove vmcart		
-    	$this->emptyCart($return_context);*/
+    	$this->emptyCart($return_context);
 
         
 
