@@ -46,8 +46,7 @@ if($optview == "com_virtuemartpluginresponse"){
 JHtml::_('behavior.formvalidation');
 ?>
 <!DOCTYPE html>
-<html lang="en">
-    <head>
+<html lang="en"><head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -134,6 +133,18 @@ JHtml::_('behavior.formvalidation');
 			});         
         });
     </script>
+	<!-- js PLACEHOLDER support IE<=9 --> 
+	<script type="text/javascript" src="<?php echo $tmpl;?>js/jquery.placeholder.js"></script> 
+	<script type="text/javascript">
+	   $(function() {
+		 $('input, textarea').placeholder();
+		});
+	</script>
+	<style> 
+		.placeholder { color: #aaa; }
+		.note { border: 1px solid orange; padding: 1em; background: #ffffe0; } 
+	</style>
+	<!-- End js PLACEHOLDER support IE<=9 -->
 	<?php if(!$haveLeft){?>
 	<style>
 	.navbar-form{margin-bottom:18px;}
