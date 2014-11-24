@@ -280,6 +280,9 @@ jQuery(document).ready(function(){
         event.preventDefault();
         jQuery(".w_Address").slideToggle("500","swing", function(){
             shipTo();
+			$(function() {
+				$('input, textarea').placeholder();
+			});
         });
     });
     
