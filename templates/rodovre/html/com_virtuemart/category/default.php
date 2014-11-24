@@ -204,9 +204,11 @@ if (VmConfig::get ('showCategory', 1) and empty($this->keyword)) {
 					echo $this->currency->priceDisplay($product->prices['salesPrice'],0,1.0,false,$this->currency->_priceConfig['salesPrice'][1] );
                             ?>
                         </h4>
+						<?php if($product->virtuemart_category_id != 71){ ?>
 						<h6 class="w_brand">
 							<img src="<?php echo JURI::base().'thumbnail/timthumb.php?src='.$file_url.'&q=100&h=31'; ?>" />
 						</h6>
+						<?php }?>
                         <div class="pro-larg animated clearfix">
                             <div class="img_main">
                                 <a href="<?php echo $link?>"><?php echo $product->images[0]->displayMediaThumb( 'border="0"', false, '' )?></a>
