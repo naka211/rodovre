@@ -1730,13 +1730,13 @@ class VirtueMartModelProduct extends VmModel {
 
 					//$data['mprices'][$k] = $data['virtuemart_product_id'];
 					if($pricesToStore){
-						/*$toUnset = array();
+						$toUnset = array();
 						foreach($old_price_ids as $key => $oldprice){
 							if(array_search($pricesToStore['virtuemart_product_price_id'], $oldprice )){
 								$pricesToStore = array_merge($oldprice,$pricesToStore);
 								$toUnset[] = $key;
 							}
-						}*/
+						}
 
 						$this->updateXrefAndChildTables ($pricesToStore, 'product_prices',$isChild);
 
