@@ -21,9 +21,11 @@ if(!$file_url){
 	$file_url = JURI::base()."components/com_virtuemart/assets/images/vmgeneral/noimage.gif";
 }
 ?>
+	<?php if($this->product->virtuemart_category_id != 71){ ?>
 	<h6 class="w_brand">
 		<img src="<?php echo JURI::base().'thumbnail/timthumb.php?src='.$file_url.'&q=100&h=31'; ?>" />
 	</h6>
+	<?php }?>
     <div class="img_larg">
 	<a class="imgZoom" id="btnLargeImage" href="<?php echo $image->file_url?>">
 	<?php
