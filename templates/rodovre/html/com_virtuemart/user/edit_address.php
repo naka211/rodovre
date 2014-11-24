@@ -270,6 +270,10 @@ jQuery(document).ready(function(){
     jQuery(".w_Address").show();
     jQuery("#deduct").hide();
     jQuery("#shipPriceLabel1").html("0,00 DKK");
+	
+	$(function() {
+		$('input, textarea').placeholder();
+	});
     <?php } else {?>
     jQuery(".w_Address").hide();
     <?php }?>
