@@ -1763,7 +1763,7 @@ class VirtueMartModelProduct extends VmModel {
 			}
 		}
 
-		if (!empty($data['childs'])) {
+		if (!empty($data['childs'])) {die('aaa');
 			foreach ($data['childs'] as $productId => $child) {
 				$child['product_parent_id'] = $data['virtuemart_product_id'];
 				$child['virtuemart_product_id'] = $productId;
@@ -1804,7 +1804,7 @@ class VirtueMartModelProduct extends VmModel {
 			}
 
 		}
-
+//print_r($data);exit;
 		return $product_data->virtuemart_product_id;
 	}
 

@@ -39,12 +39,14 @@ if(!class_exists('VmModel'))require(JPATH_VM_ADMINISTRATOR.DS.'helpers'.DS.'vmmo
 $orderModel=VmModel::getModel('orders');
 $order = $orderModel->getOrder($orderid);
 
-if (!class_exists('VirtueMartModelOrders')) require( JPATH_VM_ADMINISTRATOR . DS . 'models' . DS . 'orders.php' );
-$modelOrder = VmModel::getModel('orders');	
-$order1 = array();		
-$order1['order_status'] = "C";
-$order1['customer_notified'] =1;
-$modelOrder->updateStatusForOneOrder($orderid, $order1, true);
+if($order['details']['BT']->order_status != "C"){
+	if (!class_exists('VirtueMartModelOrders')) require( JPATH_VM_ADMINISTRATOR . DS . 'models' . DS . 'orders.php' );
+	$modelOrder = VmModel::getModel('orders');	
+	$order1 = array();		
+	$order1['order_status'] = "C";
+	$order1['customer_notified'] =1;
+	$modelOrder->updateStatusForOneOrder($orderid, $order1, true);
+}
 
 $query = "SELECT * FROM #__virtuemart_order_userinfos WHERE address_type = 'BT' AND virtuemart_order_id = ".$orderid;
 $db->setQuery($query);

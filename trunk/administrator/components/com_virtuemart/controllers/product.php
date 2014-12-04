@@ -496,7 +496,7 @@ class VirtuemartControllerProduct extends VmController {
                     "view" => "product",
                     "virtuemart_product_id" => 0,
                     "product_parent_id" => 0,
-                    "product_delivery" => 0                    
+                    "product_delivery" => 0                 
                 );
         
                 $db->setQuery ('SELECT mf_name name, virtuemart_manufacturer_id id FROM `#__virtuemart_manufacturers_' . VMLANG . '`');
@@ -565,6 +565,8 @@ class VirtuemartControllerProduct extends VmController {
                             }
                             
                             $rec["mprices"]["product_price"] = array(str_replace(',', '', $sheetData[$j]['E']));
+							$rec["mprices"]["basePrice"] = array(str_replace(',', '', $sheetData[$j]['E']));
+							$rec["mprices"]["salesPrice"] = array(str_replace(',', '', $sheetData[$j]['F']));
                 
                             if($sheetData[$j]['F'] && ($sheetData[$j]['F'] < $sheetData[$j]['E'])){
                                 $tmp0 = $sheetData[$j]['F'] - $sheetData[$j]['E'];
@@ -627,6 +629,10 @@ class VirtuemartControllerProduct extends VmController {
                                 }
                                 $special = $this->check_special($product_id);
                                 $rec["product_special"] = $special;
+								
+								$db->setQuery ('SELECT virtuemart_product_price_id FROM `#__virtuemart_product_prices` WHERE virtuemart_product_id = '.$product_id);
+                				$virtuemart_product_price_id = $db->loadResult();
+								$rec["mprices"]["virtuemart_product_price_id"] = array($virtuemart_product_price_id);
                             }
                             //print_r($rec);exit;
                             $model->store($rec);
