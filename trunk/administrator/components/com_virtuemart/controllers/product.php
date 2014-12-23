@@ -518,58 +518,58 @@ class VirtuemartControllerProduct extends VmController {
                 for($i=$first_num; $i<=$last_num; $i++){
                     $catid = $this->createCategory($_cat, $i);
                     for($j=2; $j<=count($sheetData); $j++) {
-                        if($sheetData[$j]['N'] == $i){
-                            if((!$sheetData[$j]['K']) || (strtoupper($sheetData[$j]['K'])==='FALSE') || (strtoupper($sheetData[$j]['K'])==='FASLE')){
-                                $sheetData[$j]['K'] = 0;
+                        if($sheetData[$j]['O'] == $i){
+                            if((!$sheetData[$j]['L']) || (strtoupper($sheetData[$j]['L'])==='FALSE') || (strtoupper($sheetData[$j]['L'])==='FASLE')){
+                                $sheetData[$j]['L'] = 0;
                             } else {
-                                $sheetData[$j]['K'] = 1;
+                                $sheetData[$j]['L'] = 1;
                             }
                             
-                            if((!$sheetData[$j]['O']) || (strtoupper($sheetData[$j]['O'])==='FALSE') || (strtoupper($sheetData[$j]['O'])==='FASLE')){
-                                $sheetData[$j]['O'] = 0;
+                            if((!$sheetData[$j]['P']) || (strtoupper($sheetData[$j]['P'])==='FALSE') || (strtoupper($sheetData[$j]['P'])==='FASLE')){
+                                $sheetData[$j]['P'] = 0;
                             } else {
-                                $sheetData[$j]['O'] = 1;
+                                $sheetData[$j]['P'] = 1;
                             }
 
-                            $sheetData[$j]['H']	    = date('Y-m-d H:i:s', strtotime(str_replace('-', '/', $sheetData[$j]['H'])));
-                            $sheetData[$j]['I']		= date('Y-m-d H:i:s', strtotime(str_replace('-', '/', $sheetData[$j]['I'])));
+                            $sheetData[$j]['I']	    = date('Y-m-d H:i:s', strtotime(str_replace('-', '/', $sheetData[$j]['I'])));
+                            $sheetData[$j]['J']		= date('Y-m-d H:i:s', strtotime(str_replace('-', '/', $sheetData[$j]['J'])));
                             
                             $rec = $rec_frame;
                             $rec[$token] = 1;
                 
-                            if($sheetData[$j]['D']){
-                                $rec["product_name"] = mb_convert_case($sheetData[$j]['D'], MB_CASE_TITLE, "UTF-8").' - '.mb_convert_case($sheetData[$j]['B'], MB_CASE_TITLE, "UTF-8");
+                            if($sheetData[$j]['E']){
+                                $rec["product_name"] = mb_convert_case($sheetData[$j]['E'], MB_CASE_TITLE, "UTF-8").' - '.mb_convert_case($sheetData[$j]['C'], MB_CASE_TITLE, "UTF-8");
                             } else {
-                                $rec["product_name"] = mb_convert_case($sheetData[$j]['B'], MB_CASE_TITLE, "UTF-8");
+                                $rec["product_name"] = mb_convert_case($sheetData[$j]['C'], MB_CASE_TITLE, "UTF-8");
                             }
                             
-                            $tmps = explode('.', $sheetData[$j]['C']);
+                            $tmps = explode('.', $sheetData[$j]['D']);
                             foreach($tmps as $tmp){
                                 $rec["product_desc"] .= $this->mb_ucfirst(trim($tmp));
                                 $rec["product_desc"] .= '. ';
                             }
                             
-                            if($sheetData[$j]['D']){
+                            if($sheetData[$j]['E']){
                                 foreach($brands as $o){
-                                    if(mb_convert_case($o->name, MB_CASE_TITLE, "UTF-8") == mb_convert_case($sheetData[$j]['D'], MB_CASE_TITLE, "UTF-8")){
+                                    if(mb_convert_case($o->name, MB_CASE_TITLE, "UTF-8") == mb_convert_case($sheetData[$j]['E'], MB_CASE_TITLE, "UTF-8")){
                                         $rec["virtuemart_manufacturer_id"] = $o->id;
                                         break;
                                     }
                                 }
                                 if(!$rec["virtuemart_manufacturer_id"]){
-                                    $manufacturer_id = $this->createManufacturer(mb_convert_case($sheetData[$j]['D'], MB_CASE_TITLE, "UTF-8"));
+                                    $manufacturer_id = $this->createManufacturer(mb_convert_case($sheetData[$j]['E'], MB_CASE_TITLE, "UTF-8"));
                                     $rec["virtuemart_manufacturer_id"] = $manufacturer_id;
                                     $db->setQuery ('SELECT mf_name name, virtuemart_manufacturer_id id FROM `#__virtuemart_manufacturers_' . VMLANG . '`');
                                     $brands = $db->loadObjectList();
                                 }
                             }
                             
-                            $rec["mprices"]["product_price"] = array(str_replace(',', '', $sheetData[$j]['E']));
-							$rec["mprices"]["basePrice"] = array(str_replace(',', '', $sheetData[$j]['E']));
-							$rec["mprices"]["salesPrice"] = array(str_replace(',', '', $sheetData[$j]['F']));
+                            $rec["mprices"]["product_price"] = array(str_replace(',', '', $sheetData[$j]['F']));
+							$rec["mprices"]["basePrice"] = array(str_replace(',', '', $sheetData[$j]['F']));
+							$rec["mprices"]["salesPrice"] = array(str_replace(',', '', $sheetData[$j]['G']));
                 
-                            if($sheetData[$j]['F'] && ($sheetData[$j]['F'] < $sheetData[$j]['E'])){
-                                $tmp0 = $sheetData[$j]['F'] - $sheetData[$j]['E'];
+                            if($sheetData[$j]['G'] && ($sheetData[$j]['G'] < $sheetData[$j]['F'])){
+                                $tmp0 = $sheetData[$j]['G'] - $sheetData[$j]['F'];
                                 foreach($rules as $o){
                                     if((string)$o->num == (string)$tmp0){
                                         $rec["mprices"]["product_discount_id"] = array($o->id);
@@ -583,17 +583,18 @@ class VirtuemartControllerProduct extends VmController {
                                     $rules = $db->loadObjectList();
                                 }
                             }
-                            $rec["mprices"]["product_override_price"] = array(str_replace(',', '', $sheetData[$j]['G']));
+                            $rec["mprices"]["product_override_price"] = array(str_replace(',', '', $sheetData[$j]['H']));
                             if($sheetData[$j]['G']){
                                 $rec["mprices"]["override"] = array(1);
                             }
-                            $rec["mprices"]["product_price_publish_up"] = array($sheetData[$j]['H']);
-                            $rec["mprices"]["product_price_publish_down"] = array($sheetData[$j]['I']);
+                            $rec["mprices"]["product_price_publish_up"] = array($sheetData[$j]['I']);
+                            $rec["mprices"]["product_price_publish_down"] = array($sheetData[$j]['J']);
                             
-                            $rec["product_in_stock"] = $sheetData[$j]['J'];
+                            $rec["product_in_stock"] = $sheetData[$j]['K'];
                             $rec["product_sku"] = $sheetData[$j]['A'];
-                            $rec["published"] = $sheetData[$j]['O'];
-                            $rec["product_delivery"] = $sheetData[$j]['K'];
+							$rec["product_varenr"] = $sheetData[$j]['B'];
+                            $rec["published"] = $sheetData[$j]['P'];
+                            $rec["product_delivery"] = $sheetData[$j]['L'];
                 			
                             $cat_tmp = 0;
                             foreach($cats as $o){
@@ -603,7 +604,7 @@ class VirtuemartControllerProduct extends VmController {
                                 }
                             }
                             if($cat_tmp == 0){
-                                $cat_tmp = $this->createMainCategory($sheetData[$j]['L'], mb_convert_case($sheetData[$j]['M'], MB_CASE_TITLE, "UTF-8"));
+                                $cat_tmp = $this->createMainCategory($sheetData[$j]['M'], mb_convert_case($sheetData[$j]['N'], MB_CASE_TITLE, "UTF-8"));
                                 $db->setQuery ('SELECT b.category_name pname, a.category_child_id cid, c.category_name cname
                                 FROM `#__virtuemart_category_categories` as a
                                 RIGHT JOIN `#__virtuemart_categories_' . VMLANG . '` as b ON a.category_parent_id=b.virtuemart_category_id

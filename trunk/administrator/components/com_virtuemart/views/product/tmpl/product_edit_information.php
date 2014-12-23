@@ -145,9 +145,14 @@ img#type_image_src {
 			<td>
 				<?php echo $this->lists['vendors'];?>
 			</td>
-		<?php } else {
-				echo '<td><td>';
-			}?>
+		<?php } else {?>
+			<td>
+				<span class="hastip" title="Vare nummer">Vare nr.</span>
+			</td>
+			<td>
+				<input type="text" class="inputbox" name="product_varenr" id="product_varenr" value="<?php echo $this->product->product_varenr; ?>" size="32" maxlength="64" />
+			</td>
+		<?php	}?>
 		</tr>
         <!--T.Trung-->
         <?php /*
