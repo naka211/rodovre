@@ -113,6 +113,7 @@ class TableProducts extends VmTable {
     var $video		            = '';
 	
 	var $product_delivery	= null;
+	var $product_varenr	= null;
     //T.Trung
 
 	/**
