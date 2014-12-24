@@ -147,10 +147,10 @@ img#type_image_src {
 			</td>
 		<?php } else {?>
 			<td>
-				<span class="hastip" title="Vare nummer">Vare nr.</span>
+				<span class="hastip" title="Vare nummer">EAN</span>
 			</td>
 			<td>
-				<input type="text" class="inputbox" name="product_varenr" id="product_varenr" value="<?php echo $this->product->product_varenr; ?>" size="32" maxlength="64" />
+				<input type="text" class="inputbox" name="product_ean" id="product_ean" value="<?php echo $this->product->product_ean; ?>" size="32" maxlength="64" />
 			</td>
 		<?php	}?>
 		</tr>

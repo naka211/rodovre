@@ -591,8 +591,8 @@ class VirtuemartControllerProduct extends VmController {
                             $rec["mprices"]["product_price_publish_down"] = array($sheetData[$j]['J']);
                             
                             $rec["product_in_stock"] = $sheetData[$j]['K'];
-                            $rec["product_sku"] = $sheetData[$j]['A'];
-							$rec["product_varenr"] = $sheetData[$j]['B'];
+                            $rec["product_sku"] = $sheetData[$j]['B'];
+							$rec["product_ean"] = $sheetData[$j]['A'];
                             $rec["published"] = $sheetData[$j]['P'];
                             $rec["product_delivery"] = $sheetData[$j]['L'];
                 			
@@ -614,7 +614,7 @@ class VirtuemartControllerProduct extends VmController {
                             $rec["categories"] = array($cat_tmp, $catid);
                                 
                             
-                            $product_id = $this->check_product($sheetData[$j]['A']);
+                            $product_id = $this->check_product($sheetData[$j]['B']);
                             if($product_id){
                                 $rec["virtuemart_product_id"] = $product_id;
                                 $medias = $this->check_media($product_id); 
