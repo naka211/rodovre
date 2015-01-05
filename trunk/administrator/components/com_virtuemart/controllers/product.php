@@ -598,7 +598,7 @@ class VirtuemartControllerProduct extends VmController {
                 			
                             $cat_tmp = 0;
                             foreach($cats as $o){
-                                if((mb_convert_case($o->pname, MB_CASE_TITLE, "UTF-8")==mb_convert_case($sheetData[$j]['L'], MB_CASE_TITLE, "UTF-8")) AND (mb_convert_case($o->cname, MB_CASE_TITLE, "UTF-8")==mb_convert_case($sheetData[$j]['M'], MB_CASE_TITLE, "UTF-8"))){
+                                if((mb_convert_case($o->pname, MB_CASE_TITLE, "UTF-8")==mb_convert_case($sheetData[$j]['M'], MB_CASE_TITLE, "UTF-8")) AND (mb_convert_case($o->cname, MB_CASE_TITLE, "UTF-8")==mb_convert_case($sheetData[$j]['N'], MB_CASE_TITLE, "UTF-8"))){
                                     $cat_tmp = $o->cid;
                                     break;
                                 }
