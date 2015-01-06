@@ -29,7 +29,7 @@ $i=0;
     <table width="100%">
         <?php $i = 1 - $i; ?>
         <tr class="row<?php echo $i?>">
-            <td><div style="text-align:right;font-weight:bold;"> <?php echo JText::_('COM_VIRTUEMART_CATEGORY_S') ?></div></td>
+            <td><div style="text-align:right;font-weight:bold;"> <?php echo JText::_('Avis Category') ?></div></td>
             <td><select class="inputbox" id="categories" name="categories" >
                     <option value=""><?php echo JText::_('COM_VIRTUEMART_UNCATEGORIZED')  ?></option>
                     <?php echo $this->category_tree; ?>
