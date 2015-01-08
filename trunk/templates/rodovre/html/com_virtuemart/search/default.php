@@ -138,6 +138,19 @@ if (!empty($this->products)) {/* Show products */
 
 	// Start the Output
 	foreach($this->products as $product){
+		$db = JFactory::getDBO();
+		$db->setQuery("SELECT virtuemart_media_id FROM #__virtuemart_manufacturer_medias WHERE virtuemart_manufacturer_id = ".$product->virtuemart_manufacturer_id);
+		$vmi = $db->loadResult();
+		
+		if($vmi){
+			$db->setQuery("SELECT file_url FROM #__virtuemart_medias WHERE virtuemart_media_id = ".$vmi);
+			$file_url = $db->loadResult();
+		}
+		
+		if(!$file_url){
+			$file_url = JURI::base()."components/com_virtuemart/assets/images/vmgeneral/noimage.gif";
+		}
+		
 		$link=JRoute::_ ( 'index.php?option=com_virtuemart&view=productdetails&virtuemart_product_id=' . $product->virtuemart_product_id . '&virtuemart_category_id=' . $product->virtuemart_category_id );
 		if($iBrowseCol == 1)
 			echo '<div>';
