@@ -399,7 +399,7 @@ ul.list_product li:hover {background: url(../img/hover_li.png) no-repeat bottom 
 .frame {padding: 30px; border: 1px solid #c8c7c4; background: #fff; margin-bottom: 20px;}
 .product_img {width: 430px; float: left;}
 .product_img .img_larg {width: 430px; height: 318px;}
-.product_img .img_larg img {width: 430px; height: 318px;}
+.product_img .img_larg img {width: 430px;}
 .product_img ul.thumail {margin-bottom: 12px; float: left;}
 .product_img ul.thumail li {float: left; margin-right: 7px; width: 102px; height: 76px;}
 .product_img ul.thumail li img {width: 102px; height: 76px;}
@@ -522,8 +522,8 @@ input.sub{
 .sub {position: absolute; bottom: -2px; right: 0;}
 
 .product_img .w_brand  { text-align: center; margin: 0; margin-bottom:5px;}
-.products ul li .w_brand { position: absolute;  height: 31px; top: 0px; text-align: center; left: 0; z-index: 100; width: 100%; }
-.products ul li .w_brand img {max-height: 31px; }
+.products ul li .w_brand { position: absolute;  height: 51px; top: 0px; text-align: center; left: 0; z-index: 100; width: 100%; }
+.products ul li .w_brand img {max-height: 51px; }
 .products ul li:hover .w_brand { top: -30px;}
-.products ul .img_main { margin-top: 40px;}
-.products ul li { min-height: 340px;}
+.products ul .img_main { margin-top: 64px;}
+.products ul li { min-height: 350px;}

@@ -23,7 +23,7 @@ if(!$file_url){
 ?>
 	<?php if($this->product->virtuemart_category_id != 71){ ?>
 	<h6 class="w_brand">
-		<img src="<?php echo JURI::base().'thumbnail/timthumb.php?src='.$file_url.'&q=100&h=31'; ?>" />
+		<img src="<?php echo JURI::base().'thumbnail/timthumb.php?src='.$file_url.'&q=100&h=51'; ?>" />
 	</h6>
 	<?php }?>
     <div class="img_larg">
