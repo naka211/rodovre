@@ -282,7 +282,7 @@ else{
         <footer>
             <div id="f_map" class="reveal-modal">
                 <div class="f_map clearfix">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.574247995414!2d12.458156499999989!3d55.67900339999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525141139225c7%3A0xd78e7070f33dd4a8!2sR%C3%B8dovre+Centrum+132%2C+2610+R%C3%B8dovre%2C+Denmark!5e0!3m2!1sen!2s!4v1414749256933" width="940" height="450" frameborder="0" style="border:0"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d562.3833019293877!2d12.455071999999994!3d55.679717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525141055c8c89%3A0xd6af26aeaaf88dee!2sR%C3%B8dovre+Isenkram!5e0!3m2!1svi!2s!4v1420770282648" width="940" height="450" frameborder="0" style="border:0"></iframe>
                 </div>
                 <a id="close-reveal-modal" class="close-reveal-modal"></a> </div>
             <div class="footer_top clearfix">
