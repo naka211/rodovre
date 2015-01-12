@@ -206,7 +206,7 @@ if (VmConfig::get ('showCategory', 1) and empty($this->keyword)) {
                         </h4>
 						<?php if($product->virtuemart_category_id != 71){ ?>
 						<h6 class="w_brand">
-							<img src="<?php echo JURI::base().'thumbnail/timthumb.php?src='.$file_url.'&q=100&h=51'; ?>" />
+							<img src="<?php echo JURI::base().'thumbnail/timthumb.php?src='.$file_url.'&q=100&h=60'; ?>" />
 						</h6>
 						<?php }?>
                         <div class="pro-larg animated clearfix">
@@ -324,7 +324,7 @@ if (!empty($this->keyword)){
                         </h4>
 						<?php if($product->virtuemart_category_id != 71){ ?>
 						<h6 class="w_brand">
-							<img src="<?php echo JURI::base().'thumbnail/timthumb.php?src='.$file_url.'&q=100&h=51'; ?>" />
+							<img src="<?php echo JURI::base().'thumbnail/timthumb.php?src='.$file_url.'&q=100&h=60'; ?>" />
 						</h6>
 						<?php }?>
                         <div class="pro-larg animated clearfix">
