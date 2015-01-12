@@ -139,7 +139,7 @@ if (empty($this->product)) {
                 <?php }?>
                 <h3>
                     <?php if(!empty($this->product->prices['discountAmount'])){?>
-                    <span class="price_old">Førpris: <?php echo $this->currency->priceDisplay($this->product->prices['basePrice'],0,1.0,false,$this->currency->_priceConfig['basePrice'][1] );?></span>
+                    <span class="price_old">Vejl. Pris: <?php echo $this->currency->priceDisplay($this->product->prices['basePrice'],0,1.0,false,$this->currency->_priceConfig['basePrice'][1] );?></span>
                     <p class="price_sale">(De sparer: <?php echo $this->currency->priceDisplay(abs($this->product->prices['discountAmount']),0,1.0,false,$this->currency->_priceConfig['discountAmount'][1] );?>) </p>
                     <?php }?>
                 </h3>
