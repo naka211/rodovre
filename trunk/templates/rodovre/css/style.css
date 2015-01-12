@@ -528,3 +528,7 @@ input.sub{
 .products ul .img_main { margin-top: 73px;}
 .products ul li { min-height: 384px;}
 .PricepriceWithoutTax{color: red;}
+
+.products ul li h6.w_brand {z-index: 99;}
+.products ul li:hover {z-index: 99999;}
+.products ul li:hover h6.w_brand {z-index: 9999;}
