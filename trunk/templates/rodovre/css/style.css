@@ -247,7 +247,7 @@ ul.cate li:hover ul li a {color: #505050;}
 .products ul li p {margin-bottom: 0;}
 .products ul li .no_number {font-size: 13px;}
 .products ul li:nth-child(3n+3) {margin-right: 0;}
-.pro-larg {z-index: 99; display: none; position: absolute; top: -30px; left: -1px; text-align: center; width: 233px; padding: 7px 2px 2px 2px;
+.pro-larg {z-index: 999; display: none; position: absolute; top: -30px; left: -1px; text-align: center; width: 233px; padding: 7px 2px 2px 2px;
 background-color: #fff; -webkit-box-shadow: 0 0 4px rgba(0,0,0,.15); -moz-box-shadow: 0 0 4px rgba(0,0,0,.15); box-shadow: 0 0 4px rgba(0,0,0,.15); border: solid 1px #dcd6c0;}
 .pro-larg h3 {margin-bottom: 0 !important; padding: 0 5px;}
 .pro-larg h4 {margin-bottom: 10px !important;}
