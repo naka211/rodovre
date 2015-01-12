@@ -52,7 +52,7 @@ $currency = CurrencyDisplay::getInstance();
 				<?php echo (mb_strlen($product->product_name,"UTF-8") < 62) ? $product->product_name : mb_substr($product->product_name, 0, 61, "UTF-8")."…"?>
 			</h3>
 			<?php if(!empty($product->prices['discountAmount'])){?>
-			<p class="price_before">Førpris: <?php echo $currency->priceDisplay($product->prices['basePrice'],0,1.0,false,$currency->_priceConfig['basePrice'][1] );?></p>
+			<p class="price_before">Vejl. pris: <?php echo $currency->priceDisplay($product->prices['basePrice'],0,1.0,false,$currency->_priceConfig['basePrice'][1] );?></p>
 			<?php //echo $currency->priceDisplay($product->prices['discountAmount'],0,1.0,false,$currency->_priceConfig['discountAmount'][1] ); ?>
 				<p class="price_sale">(De sparer: <?php echo $currency->priceDisplay(abs($product->prices['discountAmount']),0,1.0,false,$currency->_priceConfig['discountAmount'][1] );?>) </p>
 			<?php }?>

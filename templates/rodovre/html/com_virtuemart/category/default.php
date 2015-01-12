@@ -216,7 +216,7 @@ if (VmConfig::get ('showCategory', 1) and empty($this->keyword)) {
                             <h3><?php echo $product->product_name?></h3>
                             <p class="no_number">Vare-nummer: <?php echo $product->product_sku?></p>
                             <?php if(!empty($product->prices['discountAmount'])){?>
-                            <p class="price_before">Førpris: <?php echo $this->currency->priceDisplay($product->prices['basePrice'],0,1.0,false,$this->currency->_priceConfig['basePrice'][1] );?></p>
+                            <p class="price_before">Vejl. pris: <?php echo $this->currency->priceDisplay($product->prices['basePrice'],0,1.0,false,$this->currency->_priceConfig['basePrice'][1] );?></p>
                                 <p class="price_sale">(De sparer: <?php echo $this->currency->priceDisplay(abs($product->prices['discountAmount']),0,1.0,false,$this->currency->_priceConfig['discountAmount'][1] );?>) </p>
                             <?php } ?>   
                             <h4>
@@ -334,7 +334,7 @@ if (!empty($this->keyword)){
                             <h3><?php echo $product->product_name?></h3>
                             <p class="no_number">Vare-nummer: <?php echo $product->product_sku?></p>
                             <?php if(!empty($product->prices['discountAmount'])){?>
-                            <p class="price_before">Førpris: <?php echo $this->currency->priceDisplay($product->prices['basePrice'],0,1.0,false,$this->currency->_priceConfig['basePrice'][1] );?></p>
+                            <p class="price_before">Vejl. pris: <?php echo $this->currency->priceDisplay($product->prices['basePrice'],0,1.0,false,$this->currency->_priceConfig['basePrice'][1] );?></p>
                                 <p class="price_sale">(De sparer: <?php echo $this->currency->priceDisplay(abs($product->prices['discountAmount']),0,1.0,false,$this->currency->_priceConfig['discountAmount'][1] );?>) </p>
                             <?php } ?>   
                             <h4>
