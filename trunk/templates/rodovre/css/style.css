@@ -523,7 +523,7 @@ input.sub{
 
 .product_img .w_brand  { text-align: center; margin: 0; margin-bottom:5px;}
 .products ul li .w_brand { position: absolute;  height: 51px; top: 0px; text-align: center; left: 0; z-index: 100; width: 100%; }
-.products ul li .w_brand img {max-height: 51px; }
+.products ul li .w_brand img {max-height: 60px; }
 .products ul li:hover .w_brand { top: -30px;}
-.products ul .img_main { margin-top: 64px;}
-.products ul li { min-height: 375px;}
+.products ul .img_main { margin-top: 73px;}
+.products ul li { min-height: 384px;}
