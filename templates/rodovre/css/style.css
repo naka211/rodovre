@@ -532,3 +532,9 @@ input.sub{
 .products ul li h6.w_brand {z-index: 99;}
 .products ul li:hover {z-index: 99999;}
 .products ul li:hover h6.w_brand {z-index: 9999;}
+
+.vm-pagination {text-align: center;margin: 0 0 25px 0;}
+.vm-pagination ul {display: inline-block;}
+.vm-pagination ul li {display:inline-block;}
+.vm-pagination ul li a, .vm-pagination ul li span {padding: 7px 9px;background: #555;margin: 0 2px;display: inline-block; max-height: 25px;border-radius: 3px; color: #fff;line-height: 10px;}
+.vm-pagination ul li span, .vm-pagination ul li:hover a {background: #111;}
