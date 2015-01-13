@@ -237,6 +237,7 @@ if($iBrowseCol != 1)
 ?>
     </ul>
 </div>
+<div class="vm-pagination"><?php echo $this->vmPagination->getPagesLinks (); ?></div>
 <!--<div class="orderby-displaynumber">
 	<div class="sorter">
 		<div style="padding: 10px;border-bottom: 1px solid #CACACA">
@@ -349,7 +350,8 @@ if (!empty($this->keyword)){
 	} // end of foreach ( $this->products as $product )
 ?>
     </ul>
-</div>  
+</div>
+<div class="vm-pagination"><?php echo $this->vmPagination->getPagesLinks (); ?></div>
 <?php
     } else {
         echo 'Intet resultat' . ($this->keyword ? ' : (' . $this->keyword . ')' : '');
