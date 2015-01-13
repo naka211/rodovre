@@ -91,6 +91,7 @@ $currency = CurrencyDisplay::getInstance();
 ?>
     		</ul>
 		</div>
+		<div class="vm-pagination"><?php echo $pagination->getPagesLinks (); ?></div>
     </div>
 </div>
 <?php
