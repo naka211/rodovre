@@ -54,7 +54,7 @@ class VirtueMartControllerCategory extends JController {
 		if (JRequest::getvar('search')) {
 			$view = $this->getView('category', 'html');
 			$view->display();
-		} else {
+		} else { 
 			// Display it all
 			$document = JFactory::getDocument();
 			$viewType = $document->getType();
