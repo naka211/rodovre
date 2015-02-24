@@ -83,7 +83,7 @@ border-color: red !important;
         </div>
         <div class="clear"></div>
         <div class="map clearfix">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1124.791992999477!2d12.45881387430633!3d55.67883407668541!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465251411e34f9d3%3A0x483689c06d49155c!2zUsO4ZG92cmUgQ2VudHJ1bSwgMjYxMCBSw7hkb3ZyZSwgxJBhbiBN4bqhY2g!5e0!3m2!1svi!2s!4v1412233267801" width="721" height="472" frameborder="0" style="border:0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2249.5332077175503!2d12.455072!3d55.679717000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525141055c8c89%3A0xd6af26aeaaf88dee!2sR%C3%B8dovre+Isenkram!5e0!3m2!1sen!2s!4v1424747792224" width="721" height="472" frameborder="0" style="border:0"></iframe>
         </div>
     </div>
 </div>
