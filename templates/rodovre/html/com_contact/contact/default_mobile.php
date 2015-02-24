@@ -71,7 +71,7 @@ border-color: red !important;
 				</div>
 			</div>
 		</div>
-		<div class="wrapMap clearfix"> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4470.661793324947!2d12.43221850034413!3d55.92630137101223!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652478c58c6b30d%3A0x882207eeab2b9c27!2zSGVzc2VscsO4ZHZlaiAyNiwgMjk4MCBLb2trZWRhbCwgxJBhbiBN4bqhY2g!5e0!3m2!1svi!2s!4v1407383222950" width="600" height="400" frameborder="0" style="border:0"></iframe> </div>
+		<div class="wrapMap clearfix"> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2249.5332077175503!2d12.455072!3d55.679717000000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525141055c8c89%3A0xd6af26aeaaf88dee!2sR%C3%B8dovre+Isenkram!5e0!3m2!1sen!2s!4v1424747792224" width="600" height="400" frameborder="0" style="border:0"></iframe> </div>
 	</div>
 </div>
 <!--End #content-->
